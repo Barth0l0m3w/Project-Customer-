@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class InteractableObjectSelection : MonoBehaviour
 {
-
-    private Renderer renderer;
+    private Color startingColor;
+    private Renderer renderers;
 
     // Start is called before the first frame update
     void Start()
     {
-        renderer = GetComponent<Renderer>();
+        renderers = GetComponent<Renderer>();
+        startingColor = renderers.material.color;
     }
 
     // Update is called once per frame
@@ -21,11 +22,11 @@ public class InteractableObjectSelection : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        renderer.material.color = Color.red;
+        renderers.material.color = Color.red;
     }
 
     private void OnMouseExit()
     {
-        renderer.material.color = Color.blue;
+        renderers.material.color = startingColor;
     }
 }
