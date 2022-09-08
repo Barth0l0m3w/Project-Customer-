@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipes: []
-  sceneName: insideBuildingOne
+  sceneName: insideBuildingTwo
 --- !u!1001 &486985546
 PrefabInstance:
   m_ObjectHideFlags: 0
