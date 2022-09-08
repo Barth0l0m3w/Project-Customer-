@@ -170,8 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91992c9b54f973f439d2be00f42d238e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingOne: {fileID: 0}
-  buildingTwo: {fileID: 0}
+  sceneName: insideBuildingTwo
 --- !u!65 &348781467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -313,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1047855613}
   m_Layer: 0
-  m_Name: Room1
+  m_Name: RoomOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -890,7 +889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1901181896}
   m_Layer: 0
-  m_Name: camera pivot
+  m_Name: Camera pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1022,8 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91992c9b54f973f439d2be00f42d238e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingOne: {fileID: 0}
-  buildingTwo: {fileID: 0}
+  sceneName: insideBuildingOne
 --- !u!1 &2098291529
 GameObject:
   m_ObjectHideFlags: 0

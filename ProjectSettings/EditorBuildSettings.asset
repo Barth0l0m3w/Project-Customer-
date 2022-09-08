@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/insideBuildingTwo.unity
     guid: fbd1bba199405844a8f123a6dc867749
+  - enabled: 1
+    path: Assets/Scenes/PipeGame.unity
+    guid: 23ce5ee969dc50044b823feed46a7c5e
   m_configObjects: {}
