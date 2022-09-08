@@ -10,7 +10,8 @@ public class Pipes : MonoBehaviour
     public float rotation;
 
     public bool isCorrectlyTurned = false;
-    public float pipeAngle;
+    public float pipeAngle1;
+    public float pipeAngle2;
     private float changeAngle = 90.0f;
 
 
@@ -37,10 +38,14 @@ public class Pipes : MonoBehaviour
 
     private void IsCorrect()
     {
-        if (rotation == pipeAngle)
+        if (rotation == pipeAngle1)
         {
             isCorrectlyTurned = true;
             check.CheckState();
+        }
+        else if(rotation == pipeAngle2)
+        {
+            isCorrectlyTurned = true;
         }
         else
         {
