@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.8
+      value: -29.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
       propertyPath: m_LocalPosition.y
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.1
+      value: -28.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
       propertyPath: m_LocalRotation.w
@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 47e75e28df13f8544bb82214b7b14a5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
       propertyPath: m_Name
       value: Waste building
@@ -563,6 +567,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1314717577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e9d46028beaa82408eae998ad26a043, type: 3}
+  m_PrefabInstance: {fileID: 63491217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1314717581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314717577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91992c9b54f973f439d2be00f42d238e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: insideBuildingTwo
+--- !u!65 &1314717582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314717577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2826.7825, y: 3466.851, z: 4015.7485}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1380749909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -954,7 +989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732062269}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0.2}
   m_LocalScale: {x: 17.610079, y: 17.610079, z: 17.610079}
   m_ConstrainProportionsScale: 0
   m_Children: []
