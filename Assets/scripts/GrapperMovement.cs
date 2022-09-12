@@ -1,44 +1,90 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GrapperMovement : MonoBehaviour
 {
     
     public float speed = 10f;
-    Vector3 tempPos;
+    public GameObject spawnpoint;
+    public GameObject Uranium;
+    private float time = 0f;
+    private float timeBetweenShooting = 0.5f;
+    private List<GameObject> fuelList = new List<GameObject>();
+    private int maxSpawnAmount = 5;
 
-
+    bool yourMother = false;
 
     void Start()
     {
-         tempPos = transform.position;
+     
         
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            
-            tempPos.z += speed;
+
+
+
+        if (yourMother == true) {
+            CheckIfShouldShoot();
+        }
+
+
+        //Movement
+        if (Input.GetKey(KeyCode.A))
+         {
+       
+        transform.localPosition += new Vector3(0,0, speed);
 
         }
+        if (Input.GetKey(KeyCode.D))
+        {
+
+            transform.localPosition += new Vector3(0, 0, -speed);
+
+        }
+
+        //DEBUG
+        if (Input.GetKey(KeyCode.E))
+        {
+            SetFuel();
+        }
+
+      
+    }
+    
+    void CheckIfShouldShoot()
+    {
+        if (time < Time.time)
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Shoot();
+                time = Time.time + timeBetweenShooting;
+                
+            }
+            
+        }
+        
     }
 
+    void Shoot()
+    {
+        if (fuelList.Count < maxSpawnAmount)
+        {
+            fuelList.Add(Instantiate(Uranium, spawnpoint.transform.position, spawnpoint.transform.rotation));
+        }
+        
+            
+        
+    }
 
-    //void OnMouseDrag()
-    //{
-    //  Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z + transform.position.z);
-    //Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-    //transform.position = objPosition;
-    //rb.isKinematic = true;
-    //}
-
-    //private void OnMouseUp()
-    //{
-    //  rb.isKinematic = false;
-    //}
-
-
+   public void SetFuel()
+    {
+        fuelList.Clear();
+        yourMother = true;
+    }
 }
