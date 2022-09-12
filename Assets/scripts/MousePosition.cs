@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class MousePosition : MonoBehaviour
 {
-    [SerializeField] private Camera mainCamers;
+    public LayerMask layersToHit;
+    private Vector3 worldPosition;
+    private Vector3 screenPosition;
 
     void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if(Physics.Raycast(ray, out RaycastHit raycastHit))
+        screenPosition = Input.mousePosition;
+
+        Ray ray = Camera.main.ScreenPointToRay(screenPosition);
+
+        if (Physics.Raycast(ray, out RaycastHit raycastHit, 1000, layersToHit))
         {
-            transform.position = raycastHit.point;
+            worldPosition = raycastHit.point;
         }
+        transform.position = worldPosition;
     }
 }
