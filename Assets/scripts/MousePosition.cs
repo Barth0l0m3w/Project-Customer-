@@ -18,6 +18,7 @@ public class MousePosition : MonoBehaviour
         {
             worldPosition = raycastHit.point;
         }
+
         transform.position = worldPosition;
     }
 }

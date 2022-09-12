@@ -93,7 +93,7 @@ SphereCollider:
   m_GameObject: {fileID: 5048565063706073543}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -142,4 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9aff0874cf9df1439a978b96d570682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamers: {fileID: 0}
+  layersToHit:
+    serializedVersion: 2
+    m_Bits: 0
