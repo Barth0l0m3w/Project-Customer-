@@ -6,21 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FirstPrototype3.unity
-    guid: d7a45d166953b4d4cbabdb9e0cb028da
+    path: Assets/Scenes/FirstPrototype1.unity
+    guid: 46734f296c5dcfd429f8d7e52c729dc9
   - enabled: 1
-    path: Assets/Scenes/insideBuildingOne.unity
-    guid: a48f5c2bcc27a5b40806f05494a6244b
+    path: Assets/Scenes/FirstPrototype2.unity
+    guid: 1a4912fee13f66a4f983ffbbb3189ceb
   - enabled: 1
     path: Assets/Scenes/insideBuildingTwo.unity
+    guid: b5f8bc9e4acc02a4091acdcabfe76373
+  - enabled: 1
+    path: Assets/Scenes/insideBuildingTwo2.unity
     guid: fbd1bba199405844a8f123a6dc867749
   - enabled: 1
     path: Assets/Scenes/PipeGame.unity
     guid: 23ce5ee969dc50044b823feed46a7c5e
-  - enabled: 1
-    path: Assets/Scenes/FirstPrototype 1.unity
-    guid: 46734f296c5dcfd429f8d7e52c729dc9
-  - enabled: 1
-    path: Assets/Scenes/FirstPrototype2 1.unity
-    guid: 1a4912fee13f66a4f983ffbbb3189ceb
   m_configObjects: {}
