@@ -8,15 +8,16 @@ public class ToolTipSystem : MonoBehaviour
 
     public Tooltip tooltip;
 
-    // Start is called before the first frame update
+    
     private void Awake()
     {
         current = this;
         ToolTipSystem.Hide();
     }
 
-    public static void Show()
+    public static void Show(string content, string header = "")
     {
+        current.tooltip.SetText(content, header);
         current.tooltip.gameObject.SetActive(true);
     }
 

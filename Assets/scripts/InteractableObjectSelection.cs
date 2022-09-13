@@ -11,6 +11,9 @@ public class InteractableObjectSelection : MonoBehaviour
 
     public string sceneName;
 
+    public string content;
+    public string header;
+
     void Start()
     {
         renderers = GetComponent<Renderer>();
@@ -20,7 +23,7 @@ public class InteractableObjectSelection : MonoBehaviour
     private void OnMouseEnter()
     {
         renderers.material.color = Color.red;
-        ToolTipSystem.Show();
+        ToolTipSystem.Show(content, header);
     }
 
     private void OnMouseExit()
