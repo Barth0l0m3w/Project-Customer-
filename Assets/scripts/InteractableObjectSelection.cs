@@ -13,7 +13,9 @@ public class InteractableObjectSelection : MonoBehaviour
 
     public string sceneName;
 
-    // Start is called before the first frame update
+    public string content;
+    public string header;
+
     void Start()
     {
         renderers = GetComponent<Renderer>();
@@ -23,11 +25,13 @@ public class InteractableObjectSelection : MonoBehaviour
     private void OnMouseEnter()
     {
         renderers.material.color = Color.red;
+        ToolTipSystem.Show(content, header);
     }
 
     private void OnMouseExit()
     {
         renderers.material.color = startingColor;
+        ToolTipSystem.Hide();
     }
 
     private void OnMouseDown()
