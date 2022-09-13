@@ -7,13 +7,14 @@ using UnityEngine.SceneManagement;
 public class TrueChecking : MonoBehaviour
 {
     private Pipes[] pipes;
-    public string sceneName;
+
+    public PopUpPipes popUpPipes;
 
     public void CheckState()
     {
         if (GetComponentsInChildren<Pipes>().All(p => p.isCorrectlyTurned))
         {
-            SceneManager.LoadScene(sceneName);
+            popUpPipes.Complete();
         }
-    } 
+    }
 }

@@ -6,10 +6,22 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public string backSceneName;
+    private string activeSceneName;
+    Scene scene;
+
+    private void Start()
+    {
+        scene = SceneManager.GetActiveScene();
+        activeSceneName = scene.name;
+    }
 
     public void GoScene()
     {
-        Debug.Log("going back");
         SceneManager.LoadScene(backSceneName);
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(activeSceneName);
     }
 }
