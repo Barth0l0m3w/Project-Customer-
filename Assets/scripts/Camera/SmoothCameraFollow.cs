@@ -15,7 +15,6 @@ public class SmoothCameraFollow : MonoBehaviour
         _offset = transform.position - target.position;
     }
 
-    // Update is called once per frame
     private void LateUpdate()
     {
         Vector3 targetPosition = target.position + _offset;

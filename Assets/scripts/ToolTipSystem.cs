@@ -8,7 +8,6 @@ public class ToolTipSystem : MonoBehaviour
 
     public Tooltip tooltip;
 
-    
     private void Awake()
     {
         current = this;
@@ -17,8 +16,16 @@ public class ToolTipSystem : MonoBehaviour
 
     public static void Show(string content, string header = "")
     {
-        current.tooltip.SetText(content, header);
-        current.tooltip.gameObject.SetActive(true);
+        if (current == null)
+        {
+            Debug.Log("is Null");
+        }
+        else
+        {
+            current.tooltip.SetText(content, header);
+            current.tooltip.gameObject.SetActive(true);
+        }
+
     }
 
     public static void Hide()

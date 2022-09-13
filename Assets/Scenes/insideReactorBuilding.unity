@@ -277,7 +277,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2093748077}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: FirstScene
+        m_MethodName: GoScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -433,6 +433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2823687678089352543, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
       propertyPath: m_Name
       value: Isometric camera
@@ -449,7 +453,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 10.4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
 --- !u!1 &645044299
 GameObject:
@@ -835,7 +840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ef2a29a528741b43bbc366d8101eda0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: FirstPrototype2
+  backSceneName: FirstPrototype
 --- !u!114 &2093748078
 MonoBehaviour:
   m_ObjectHideFlags: 0

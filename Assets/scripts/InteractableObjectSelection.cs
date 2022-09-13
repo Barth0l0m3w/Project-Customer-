@@ -8,8 +8,6 @@ public class InteractableObjectSelection : MonoBehaviour
 {
     private Color startingColor;
     private Renderer renderers;
-    //public GameObject buildingOne;
-    //public GameObject buildingTwo;
 
     public string sceneName;
 
@@ -36,14 +34,6 @@ public class InteractableObjectSelection : MonoBehaviour
 
     private void OnMouseDown()
     {
-        /*if (gameObject.name.Equals("BuildingOne"))
-        {
-            Debug.Log("clicked building one");
-            SceneManager.LoadScene("insideBuildingOne");
-        }*/
-
-        Debug.Log("clicked" + sceneName);
         SceneManager.LoadScene(sceneName);
-
     }
 }
