@@ -6,8 +6,7 @@ using UnityEngine;
 
 public class GrapperMovement : MonoBehaviour
 {
-    
-    public float speed = 10f;
+    public float speed;
     public GameObject spawnpoint;
     public GameObject Uranium;
     private float time = 0f;
@@ -15,29 +14,20 @@ public class GrapperMovement : MonoBehaviour
     private List<GameObject> fuelList = new List<GameObject>();
     private int maxSpawnAmount = 5;
 
-    bool yourMother = false;
-
-    void Start()
-    {
-     
-        
-    }
+    bool fuelHasBeenCollected = false;
 
     void Update()
     {
-
-
-
-        if (yourMother == true) {
+        if (fuelHasBeenCollected == true)
+        {
             CheckIfShouldShoot();
         }
 
-
         //Movement
         if (Input.GetKey(KeyCode.A))
-         {
-       
-        transform.localPosition += new Vector3(0,0, speed);
+        {
+
+            transform.localPosition += new Vector3(0, 0, speed);
 
         }
         if (Input.GetKey(KeyCode.D))
@@ -52,10 +42,8 @@ public class GrapperMovement : MonoBehaviour
         {
             SetFuel();
         }
-
-      
     }
-    
+
     void CheckIfShouldShoot()
     {
         if (time < Time.time)
@@ -64,11 +52,11 @@ public class GrapperMovement : MonoBehaviour
             {
                 Shoot();
                 time = Time.time + timeBetweenShooting;
-                
+
             }
-            
+
         }
-        
+
     }
 
     void Shoot()
@@ -77,14 +65,11 @@ public class GrapperMovement : MonoBehaviour
         {
             fuelList.Add(Instantiate(Uranium, spawnpoint.transform.position, spawnpoint.transform.rotation));
         }
-        
-            
-        
     }
 
-   public void SetFuel()
+    public void SetFuel()
     {
         fuelList.Clear();
-        yourMother = true;
+        fuelHasBeenCollected = true;
     }
 }

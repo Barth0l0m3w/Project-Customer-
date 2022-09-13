@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string sceneName;
     // Start is called before the first frame update
     public void FirstScene()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("FirstPrototype");
     }
 }

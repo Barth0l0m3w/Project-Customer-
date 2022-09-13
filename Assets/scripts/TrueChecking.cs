@@ -9,6 +9,11 @@ public class TrueChecking : MonoBehaviour
     public Pipes[] pipes;
     public string sceneName;
 
+    void Update()
+    {
+        
+    }
+
     public void CheckState()
     {
         if (GetComponentsInChildren<Pipes>().All(p => p.isCorrectlyTurned))
