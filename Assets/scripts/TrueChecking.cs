@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TrueChecking : MonoBehaviour
 {
-    public Pipes[] pipes;
+    private Pipes[] pipes;
     public string sceneName;
 
     public void CheckState()
