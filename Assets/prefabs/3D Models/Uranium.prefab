@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -3626915548829881128}
   m_Layer: 0
   m_Name: Uranium
-  m_TagString: UraniumBall
+  m_TagString: Balls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,5 +128,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 3
-  UraniumHitsGround: 0
-  RefulSuccsessful: 0

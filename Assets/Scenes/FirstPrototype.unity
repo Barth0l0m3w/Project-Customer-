@@ -487,6 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: insideReactorBuilding
+  tooltipSystem: {fileID: 1903497404}
   content: 
   header: Reactor Building
 --- !u!65 &758046682
@@ -500,8 +501,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 11099.147, y: 12546.732, z: 10000}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 11299.887, y: 4182.936, z: 10000}
+  m_Center: {x: -100.38033, y: -4181.8027, z: -0.000000018290628}
 --- !u!1 &800498962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,6 +1094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: interiorWasteBuilding
+  tooltipSystem: {fileID: 1903497404}
   content: 
   header: WasteBuilding
 --- !u!65 &1339068938
@@ -1106,8 +1108,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2826.7825, y: 3466.851, z: 4015.7485}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5332.254, y: 4289.3027, z: 8245.647}
+  m_Center: {x: 224.09042, y: -1409.552, z: -25.889208}
 --- !u!4 &1380724554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8cbfde09f42a5564daaa16f896187460, type: 3}
@@ -1417,6 +1419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: insideTurbineBuilding
+  tooltipSystem: {fileID: 1903497404}
   content: 
   header: Turbine Building
 --- !u!65 &1812345472
@@ -1578,6 +1581,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ee6126f191a2b41a61fb5da5b2e3d2, type: 3}
+--- !u!114 &1903497404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8265820091389894645, guid: 73ee6126f191a2b41a61fb5da5b2e3d2, type: 3}
+  m_PrefabInstance: {fileID: 1903497403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221466c6db08cf841a2f6da4be8ebb62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1958107873
 PrefabInstance:
   m_ObjectHideFlags: 0

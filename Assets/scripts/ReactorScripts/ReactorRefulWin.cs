@@ -4,30 +4,26 @@ using UnityEngine;
 
 public class ReactorRefulWin : MonoBehaviour
 {
+    public PopUpReactor popUpReactor;
+
     [SerializeField]
     private int UraniumHitReactor = 0;
+    public bool gameWon;
 
-
-
-    private void FixedUpdate()
+    private void Update()
     {
         if (UraniumHitReactor == 5)
         {
-            Debug.Log("YourMother");
-
+            gameWon = true;
+            popUpReactor.Complete();
         }
     }
 
     void OnCollisionEnter(UnityEngine.Collision collision)
     {
-
-
-        if (collision.gameObject.CompareTag("UraniumBall"))
+        if (collision.gameObject.CompareTag("Balls"))
         {
             UraniumHitReactor += 1;
-            Debug.Log("Yes daddy");
-
         }
-       
     }
 }

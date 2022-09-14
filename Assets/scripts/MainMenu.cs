@@ -7,9 +7,19 @@ public class MainMenu : MonoBehaviour
 {
     public string backSceneName;
 
+    private void Start()
+    {
+        
+    }
+
     public void GoScene()
     {
-        Debug.Log("going back");
         SceneManager.LoadScene(backSceneName);
+    }
+
+    public void RestartScene()
+    {
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
