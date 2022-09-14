@@ -487,6 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: insideReactorBuilding
+  tooltipSystem: {fileID: 1903497404}
   content: 
   header: Reactor Building
 --- !u!65 &758046682
@@ -1093,6 +1094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: interiorWasteBuilding
+  tooltipSystem: {fileID: 1903497404}
   content: 
   header: WasteBuilding
 --- !u!65 &1339068938
@@ -1417,6 +1419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: insideTurbineBuilding
+  tooltipSystem: {fileID: 1903497404}
   content: 
   header: Turbine Building
 --- !u!65 &1812345472
@@ -1578,6 +1581,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ee6126f191a2b41a61fb5da5b2e3d2, type: 3}
+--- !u!114 &1903497404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8265820091389894645, guid: 73ee6126f191a2b41a61fb5da5b2e3d2, type: 3}
+  m_PrefabInstance: {fileID: 1903497403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221466c6db08cf841a2f6da4be8ebb62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1958107873
 PrefabInstance:
   m_ObjectHideFlags: 0

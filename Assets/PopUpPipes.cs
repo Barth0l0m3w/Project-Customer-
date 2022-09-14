@@ -10,21 +10,17 @@ public class PopUpPipes : MonoBehaviour
     public GameObject FailedUI;
     public GameObject CompleteUI;
 
-    public static bool failed = false;
-    public static bool completed = false;
+    public bool failed = false;
+    public bool completed = false;
 
-    private string activeSceneName;
     public string backSceneName;
-
-    Scene scene;
 
     private void Start()
     {
-        scene = SceneManager.GetActiveScene();
-        activeSceneName = scene.name;
-
         FailedUI.SetActive(false);
         CompleteUI.SetActive(false);
+        failed = false;
+        completed = false;
     }
 
     private void Update()

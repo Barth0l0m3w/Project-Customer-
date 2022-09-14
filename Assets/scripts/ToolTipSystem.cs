@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ToolTipSystem : MonoBehaviour
 {
-    private static ToolTipSystem current;
+    private ToolTipSystem current;
 
     public Tooltip tooltip;
 
     private void Awake()
     {
         current = this;
-        ToolTipSystem.Hide();
+        Hide();
     }
 
-    public static void Show(string content, string header = "")
+    public void Show(string content, string header = "")
     {
         if (current == null)
         {
@@ -28,7 +28,7 @@ public class ToolTipSystem : MonoBehaviour
 
     }
 
-    public static void Hide()
+    public void Hide()
     {
         current.tooltip.gameObject.SetActive(false);
     }
