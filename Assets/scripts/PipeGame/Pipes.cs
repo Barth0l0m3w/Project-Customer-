@@ -7,11 +7,14 @@ public class Pipes : MonoBehaviour
     public GameObject Pipe;
     public Transform GameObject;
     public TrueChecking check;
+
     public float rotation;
 
     public bool isCorrectlyTurned = false;
+
     public float pipeAngle1;
     public float pipeAngle2;
+
     private float changeAngle = 90.0f;
 
 

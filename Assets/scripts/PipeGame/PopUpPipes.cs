@@ -19,8 +19,6 @@ public class PopUpPipes : MonoBehaviour
     {
         FailedUI.SetActive(false);
         CompleteUI.SetActive(false);
-        failed = false;
-        completed = false;
     }
 
     private void Update()
