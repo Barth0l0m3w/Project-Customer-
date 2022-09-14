@@ -10,7 +10,7 @@ public class UraniumCollision : MonoBehaviour
     public bool UraniumHitsGround = false;
     public bool RefulSuccsessful = false;
 
-    
+
     private void Update()
     {
         timer -= Time.deltaTime;
@@ -18,38 +18,27 @@ public class UraniumCollision : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-
-        
     }
 
 
     void OnCollisionEnter(UnityEngine.Collision collision)
     {
-
-        
+        if (collision.gameObject.CompareTag("Reactor"))
+        {
+            Destroy(gameObject);
+        }
 
         if (collision.gameObject.CompareTag("Ground"))
         {
-           
-            UraniumHitsGround = true;
 
+            UraniumHitsGround = true;
         }
 
         if (UraniumHitsGround == true)
         {
-            
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-              
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-
-
     }
-
-   
 }
-    //private void OnCollisionEnter(Collision collision)
-    //{
-      //  Destroy(this.gameObject);
-    //}
+
 
