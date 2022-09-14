@@ -8,6 +8,9 @@ public class UraniumCollision : MonoBehaviour
     public float timer = 3f;
 
     public bool UraniumHitsGround = false;
+    public bool RefulSuccsessful = false;
+
+    
     private void Update()
     {
         timer -= Time.deltaTime;
@@ -26,11 +29,21 @@ public class UraniumCollision : MonoBehaviour
 
         
 
-        if (gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("FHiwuoavhfwwpais");
+           
             UraniumHitsGround = true;
+
         }
+
+        if (UraniumHitsGround == true)
+        {
+            
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+              
+        }
+
+
     }
 
    
