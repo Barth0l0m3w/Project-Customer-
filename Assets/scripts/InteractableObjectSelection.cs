@@ -24,13 +24,21 @@ public class InteractableObjectSelection : MonoBehaviour
     private void OnMouseEnter()
     {
         renderers.material.color = Color.red;
-        tooltipSystem.Show(content, header);
+
+        if (tooltipSystem != null)
+        {
+            tooltipSystem.Show(content, header);
+        }
     }
 
     private void OnMouseExit()
     {
         renderers.material.color = startingColor;
-        tooltipSystem.Hide();
+
+        if (tooltipSystem != null)
+        {
+            tooltipSystem.Hide();
+        }
     }
 
     private void OnMouseDown()
