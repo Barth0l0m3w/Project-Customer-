@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PipeGame.unity
     guid: 23ce5ee969dc50044b823feed46a7c5e
+  - enabled: 1
+    path: Assets/Scenes/ReactorFillGame.unity
+    guid: a48f5c2bcc27a5b40806f05494a6244b
   m_configObjects: {}
