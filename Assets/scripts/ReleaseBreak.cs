@@ -2,57 +2,58 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pipes : MonoBehaviour
+public class ReleaseBreak : MonoBehaviour
 {
-    public GameObject Pipe;
+    public GameObject lever;
     public Transform GameObject;
-    public TrueChecking check;
+    public ReleaseBreakCheck check;
 
-    private float rotation;
+    [SerializeField] private float rotation;
+    public float leverAngle1;
+    public float leverAngle2;
 
     public bool isCorrectlyTurned = false;
 
-    public float pipeAngle1;
-    public float pipeAngle2;
-
     private float changeAngle = 90.0f;
-
 
     void Start()
     {
-        check = GetComponentInParent<TrueChecking>();
+        check = GetComponentInParent<ReleaseBreakCheck>();
     }
 
+    // Update is called once per frame
     void Update()
     {
         GetAngle();
         IsCorrect();
     }
-
+    
     private void GetAngle()
     {
-        rotation = GameObject.eulerAngles.z;
+        rotation = GameObject.eulerAngles.x;
     }
 
     private void OnMouseDown()
     {
-        Pipe.transform.Rotate(Vector3.forward, changeAngle);
+        lever.transform.Rotate(Vector3.left, changeAngle);
     }
 
     private void IsCorrect()
     {
-        if (rotation == pipeAngle1)
+        if (rotation == leverAngle1)
         {
             isCorrectlyTurned = true;
             check.CheckState();
         }
-        else if(rotation == pipeAngle2)
+        else if(rotation == leverAngle2)
         {
             isCorrectlyTurned = true;
+            check.CheckState();
         }
         else
         {
             isCorrectlyTurned = false;
+            check.CheckState();
         }
     }
 }

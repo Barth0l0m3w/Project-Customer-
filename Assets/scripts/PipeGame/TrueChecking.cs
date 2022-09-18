@@ -15,7 +15,6 @@ public class TrueChecking : MonoBehaviour
         if (GetComponentsInChildren<Pipes>().All(p => p.isCorrectlyTurned))
         {
             popUpPipes.Complete();
-            Debug.Log("game complete");
         }
     }
 }
