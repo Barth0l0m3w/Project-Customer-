@@ -8,7 +8,7 @@ public class ReleaseBreak : MonoBehaviour
     public Transform GameObject;
     public ReleaseBreakCheck check;
 
-    public int timesClicked = 0;
+    private int timesClicked = 0;
 
     public bool isCorrectlyTurned;
 
