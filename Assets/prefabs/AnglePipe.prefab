@@ -292,8 +292,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.2570851}
+  m_Center: {x: 0, y: 0, z: -0.12854254}
 --- !u!114 &8687188567559369739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +309,6 @@ MonoBehaviour:
   Pipe: {fileID: 8687188567559369738}
   GameObject: {fileID: 8687188567559369735}
   check: {fileID: 0}
-  rotation: 0
   isCorrectlyTurned: 0
   pipeAngle1: 0
   pipeAngle2: 0
