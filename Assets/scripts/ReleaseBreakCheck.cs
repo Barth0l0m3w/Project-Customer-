@@ -8,14 +8,13 @@ public class ReleaseBreakCheck : MonoBehaviour
 {
     private ReleaseBreak[] levers;
 
-    //public PopupTurbine popupTurbine;
+    public PopUpPipes popUpPipes;
 
     public void CheckState()
     {
         if (GetComponentsInChildren<ReleaseBreak>().All(p => p.isCorrectlyTurned))
         {
-            //levers.Complete();
-            Debug.Log("game complete");
+            popUpPipes.Complete();
         }
     }
 }

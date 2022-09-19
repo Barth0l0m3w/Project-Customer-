@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/miniGames/PressurizerGame.unity
     guid: 7cce8ca1afdb81b4789893c6a32289cb
+  - enabled: 1
+    path: Assets/Scenes/miniGames/ReleaseBreakGame.unity
+    guid: 8eaa05eedaf7d7341818b1083d8b7580
   m_configObjects: {}

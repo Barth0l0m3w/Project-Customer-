@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &55851680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8687188567559369735, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+  m_PrefabInstance: {fileID: 220596602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &153076782
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +548,10 @@ PrefabInstance:
       value: AnglePipe
       objectReference: {fileID: 0}
     - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
+    - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
       propertyPath: pipeAngle1
       value: 180
       objectReference: {fileID: 0}
@@ -620,6 +629,10 @@ PrefabInstance:
       value: straight
       objectReference: {fileID: 0}
     - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
+    - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
       propertyPath: pipeAngle2
       value: 180
       objectReference: {fileID: 0}
@@ -667,8 +680,7 @@ Transform:
   - {fileID: 1779581098}
   - {fileID: 1694742281}
   - {fileID: 1879449843}
-  - {fileID: 1294005097}
-  - {fileID: 1043474783}
+  - {fileID: 55851680}
   - {fileID: 354958268}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -753,6 +765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnglePipe
       objectReference: {fileID: 0}
+    - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
     - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
       propertyPath: pipeAngle2
       value: 5
@@ -955,6 +971,10 @@ PrefabInstance:
       value: straight
       objectReference: {fileID: 0}
     - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
+    - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
       propertyPath: pipeAngle2
       value: 180
       objectReference: {fileID: 0}
@@ -1100,6 +1120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: straight
       objectReference: {fileID: 0}
+    - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
     - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
       propertyPath: pipeAngle2
       value: 180
@@ -2254,6 +2278,10 @@ PrefabInstance:
       value: AnglePipe
       objectReference: {fileID: 0}
     - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
+    - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
       propertyPath: pipeAngle1
       value: 180
       objectReference: {fileID: 0}
@@ -2617,6 +2645,10 @@ PrefabInstance:
       value: AnglePipe
       objectReference: {fileID: 0}
     - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
+    - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
       propertyPath: pipeAngle1
       value: 90
       objectReference: {fileID: 0}
@@ -2829,6 +2861,10 @@ PrefabInstance:
       value: straight
       objectReference: {fileID: 0}
     - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
+    - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
       propertyPath: pipeAngle1
       value: 90
       objectReference: {fileID: 0}
@@ -2898,6 +2934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: straight
       objectReference: {fileID: 0}
+    - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
     - target: {fileID: 8687188567559369739, guid: 063c6d8c7c3ab81429b730ebb915b306, type: 3}
       propertyPath: pipeAngle1
       value: 90
@@ -3043,6 +3083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnglePipe
       objectReference: {fileID: 0}
+    - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 369322442}
     - target: {fileID: 8687188567559369739, guid: a764cabe897519741b0aaceb348b721c, type: 3}
       propertyPath: pipeAngle1
       value: 270
