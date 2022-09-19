@@ -8,7 +8,7 @@ public class Pipes : MonoBehaviour
     public Transform GameObject;
     public TrueChecking check;
 
-    public float rotation;
+    private float rotation;
 
     public bool isCorrectlyTurned = false;
 
