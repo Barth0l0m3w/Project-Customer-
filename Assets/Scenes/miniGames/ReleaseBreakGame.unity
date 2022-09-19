@@ -638,9 +638,7 @@ MonoBehaviour:
   lever: {fileID: 1954641249}
   GameObject: {fileID: 1954641250}
   check: {fileID: 937070808}
-  rotation: 0
-  leverAngle1: 315
-  leverAngle2: 45
+  timesClicked: 0
   isCorrectlyTurned: 0
 --- !u!1 &1125111023
 GameObject:
@@ -756,9 +754,7 @@ MonoBehaviour:
   lever: {fileID: 64105677}
   GameObject: {fileID: 64105678}
   check: {fileID: 937070808}
-  rotation: 0
-  leverAngle1: 315
-  leverAngle2: 135
+  timesClicked: 0
   isCorrectlyTurned: 0
 --- !u!1 &1954641249
 GameObject:
@@ -971,9 +967,7 @@ MonoBehaviour:
   lever: {fileID: 532153161}
   GameObject: {fileID: 532153162}
   check: {fileID: 937070808}
-  rotation: 0
-  leverAngle1: 315
-  leverAngle2: 45
+  timesClicked: 0
   isCorrectlyTurned: 0
 --- !u!1 &2113099876
 GameObject:

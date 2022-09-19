@@ -8,11 +8,9 @@ public class ReleaseBreak : MonoBehaviour
     public Transform GameObject;
     public ReleaseBreakCheck check;
 
-    [SerializeField] private float rotation;
-    public float leverAngle1;
-    public float leverAngle2;
+    public int timesClicked = 0;
 
-    public bool isCorrectlyTurned = false;
+    public bool isCorrectlyTurned;
 
     private float changeAngle = 90.0f;
 
@@ -21,38 +19,27 @@ public class ReleaseBreak : MonoBehaviour
         check = GetComponentInParent<ReleaseBreakCheck>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        GetAngle();
         IsCorrect();
     }
-    
-    private void GetAngle()
-    {
-        rotation = GameObject.eulerAngles.x;
-    }
+
 
     private void OnMouseDown()
     {
         lever.transform.Rotate(Vector3.left, changeAngle);
+        timesClicked ++;
     }
 
     private void IsCorrect()
     {
-        if (rotation == leverAngle1)
+        if (timesClicked % 2 == 0)
         {
-            isCorrectlyTurned = true;
-            check.CheckState();
-        }
-        else if(rotation == leverAngle2)
-        {
-            isCorrectlyTurned = true;
-            check.CheckState();
+            isCorrectlyTurned = false;
         }
         else
         {
-            isCorrectlyTurned = false;
+            isCorrectlyTurned = true;
             check.CheckState();
         }
     }
