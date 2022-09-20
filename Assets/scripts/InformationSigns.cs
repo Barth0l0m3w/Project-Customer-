@@ -8,6 +8,7 @@ public class InformationSigns : MonoBehaviour
     private Renderer renderers;
 
     public GameObject informationUI;
+
     private bool hovering;
 
     void Start()
