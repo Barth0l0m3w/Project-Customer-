@@ -31,12 +31,12 @@ public class Pipes : MonoBehaviour
 
     private void GetAngle()
     {
-        rotation = GameObject.eulerAngles.z;
+        rotation = GameObject.eulerAngles.y;
     }
 
     private void OnMouseDown()
     {
-        Pipe.transform.Rotate(Vector3.forward, changeAngle);
+        Pipe.transform.Rotate(Vector3.up, changeAngle);
     }
 
     private void IsCorrect()
