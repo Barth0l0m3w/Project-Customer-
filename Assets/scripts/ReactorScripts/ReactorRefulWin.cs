@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ReactorRefulWin : MonoBehaviour
 {
@@ -10,11 +11,15 @@ public class ReactorRefulWin : MonoBehaviour
     private int UraniumHitReactor = 0;
     public bool gameWon;
 
+
+    [SerializeField] TMP_Text refulingMission;
+
     private void Update()
     {
         if (UraniumHitReactor == 5)
         {
             gameWon = true;
+            refulingMission.color = Color.green;
             popUpReactor.Complete();
         }
     }
