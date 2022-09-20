@@ -1061,6 +1061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurbineInteriorFixed
       objectReference: {fileID: 0}
+    - target: {fileID: 5466539703612448879, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 663cf4673c69a87479e9c3b8a1776852, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
 --- !u!1 &1317290562 stripped
@@ -1098,6 +1102,41 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6396028169466088772, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+--- !u!1 &1317290565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3277508753804172120, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+  m_PrefabInstance: {fileID: 1317290561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1317290566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317290565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91992c9b54f973f439d2be00f42d238e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltipSystem: {fileID: 0}
+  sceneName: ReleaseBreakGame
+  content: 
+  header: 
+--- !u!64 &1317290573
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317290565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2698757342573874753, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
 --- !u!1 &1612660048
 GameObject:
   m_ObjectHideFlags: 0

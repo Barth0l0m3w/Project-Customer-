@@ -15,15 +15,12 @@ public class PopUpPipes : MonoBehaviour
 
     public string backSceneName;
 
-    private void Start()
-    {
-        FailedUI.SetActive(false);
-        CompleteUI.SetActive(false);
-    }
-
     private void Update()
     {
-        Timer();
+        if (!completed)
+        {
+            Timer();
+        }
     }
 
     private void Timer()
@@ -49,6 +46,7 @@ public class PopUpPipes : MonoBehaviour
 
     public void GoScene()
     {
+        Debug.Log("go back");
         SceneManager.LoadScene(backSceneName);
     }
 

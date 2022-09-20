@@ -4,15 +4,15 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TrueChecking : MonoBehaviour
+public class ReleaseBreakCheck : MonoBehaviour
 {
-    private Pipes[] pipes;
+    private ReleaseBreak[] levers;
 
     public PopUpPipes popUpPipes;
 
     public void CheckState()
     {
-        if (GetComponentsInChildren<Pipes>().All(p => p.isCorrectlyTurned))
+        if (GetComponentsInChildren<ReleaseBreak>().All(p => p.isCorrectlyTurned))
         {
             popUpPipes.Complete();
         }

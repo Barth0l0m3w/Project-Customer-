@@ -552,6 +552,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+--- !u!4 &220596603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8687188567559369735, guid: a764cabe897519741b0aaceb348b721c, type: 3}
+  m_PrefabInstance: {fileID: 220596602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &354958267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -667,8 +672,7 @@ Transform:
   - {fileID: 1779581098}
   - {fileID: 1694742281}
   - {fileID: 1879449843}
-  - {fileID: 1294005097}
-  - {fileID: 1043474783}
+  - {fileID: 220596603}
   - {fileID: 354958268}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1766,7 +1770,7 @@ MonoBehaviour:
   CompleteUI: {fileID: 603295827}
   failed: 0
   completed: 0
-  backSceneName: insideTurbineBuilding
+  backSceneName: insideReactorBuilding
 --- !u!4 &1123210603
 Transform:
   m_ObjectHideFlags: 0
