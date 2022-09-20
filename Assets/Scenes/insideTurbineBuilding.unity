@@ -1053,6 +1053,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8367287536001286528, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a92cc31951d84543abc80d5ad11c313, type: 2}
+    - target: {fileID: -7665053544624770279, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96206c2b809a4d24c9e4f3a1aae9b3fd, type: 2}
+    - target: {fileID: -4173003130226175996, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71cf885dc42748741a74aa6b95fce9a1, type: 2}
     - target: {fileID: -2195038871219774800, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1061,6 +1073,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurbineInteriorFixed
       objectReference: {fileID: 0}
+    - target: {fileID: 1742045248851780129, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0bbaae32dd360ef48a9408c9df8f7c49, type: 2}
+    - target: {fileID: 1742045248851780129, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0bbaae32dd360ef48a9408c9df8f7c49, type: 2}
     - target: {fileID: 5466539703612448879, guid: 610c36262f1cd654e9e0fd79a630e35b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
