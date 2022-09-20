@@ -8,6 +8,8 @@ public class GrapperMovement : MonoBehaviour
 {
     public float speed;
 
+    public Transform zDirection;
+
     public GameObject spawnpoint;
     public GameObject Uranium;
 
@@ -20,6 +22,15 @@ public class GrapperMovement : MonoBehaviour
 
     bool fuelHasBeenCollected = false;
 
+
+    Rigidbody rb;
+
+
+    private void Start()
+    {
+        rb= GetComponent<Rigidbody>();
+    }
+
     void Update()
     {
         if (fuelHasBeenCollected == true)
@@ -28,17 +39,21 @@ public class GrapperMovement : MonoBehaviour
         }
 
         //Movement
+
+
+        
+
         if (Input.GetKey(KeyCode.A))
         {
 
-            transform.localPosition += new Vector3(0, 0, speed / 2);
-
+            //transform.localPosition += new Vector3(0, 0, speed / 2);
+            rb.AddForce(speed * zDirection.forward);
         }
         if (Input.GetKey(KeyCode.D))
         {
 
-            transform.localPosition += new Vector3(0, 0, -speed / 2);
-
+            //transform.localPosition += new Vector3(0, 0, -speed / 2);
+            rb.AddForce(speed * - zDirection.forward);
         }
 
         //DEBUG
