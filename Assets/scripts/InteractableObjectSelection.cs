@@ -23,6 +23,8 @@ public class InteractableObjectSelection : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = Color.red;
 
         if (tooltipSystem != null)
@@ -33,6 +35,8 @@ public class InteractableObjectSelection : MonoBehaviour
 
     private void OnMouseExit()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = startingColor;
 
         if (tooltipSystem != null)
