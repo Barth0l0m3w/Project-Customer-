@@ -191,6 +191,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &270837356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270837359}
+  - component: {fileID: 270837358}
+  - component: {fileID: 270837357}
+  m_Layer: 0
+  m_Name: scriptHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &270837357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270837356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSteve: {fileID: 0}
+--- !u!114 &270837358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270837356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb1b88a98f13874f965997043138fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &270837359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270837356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.4765663, y: 0.041159034, z: -4.039715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &545184282
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,22 +647,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 677395466945996032, guid: d626f20bd08837c438c6112c5f7f4ad8, type: 3}
   m_PrefabInstance: {fileID: 614820755}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &614820757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614820756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91992c9b54f973f439d2be00f42d238e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tooltipSystem: {fileID: 0}
-  sceneName: null
-  content: 
-  header: 
 --- !u!65 &614820761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -618,6 +660,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 19.961605, y: 4.898293, z: 4.4770775}
   m_Center: {x: -20.105114, y: -2.123811, z: 15.062983}
+--- !u!114 &614820762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614820756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceafc651d31caaf4b973fd7329dac2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: PipeGameWaste
+  selected: 0
+  selectNumber: 0
 --- !u!1 &1426217638
 GameObject:
   m_ObjectHideFlags: 0

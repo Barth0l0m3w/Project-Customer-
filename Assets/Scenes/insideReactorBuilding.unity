@@ -391,7 +391,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 536596541}
         m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
@@ -451,6 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 536596539}
   - component: {fileID: 536596540}
+  - component: {fileID: 536596541}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -485,6 +486,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eb1b88a98f13874f965997043138fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &536596541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536596537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSteve: {fileID: 356366187}
 --- !u!1001 &561377725
 PrefabInstance:
   m_ObjectHideFlags: 0
