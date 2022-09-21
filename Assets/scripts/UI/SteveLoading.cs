@@ -34,6 +34,7 @@ public class SteveLoading : MonoBehaviour
                 beginSteve2.SetActive(true);
                 Debug.Log("steve2");
             }
+            else {Time.timeScale = 1; }
         }
     }
 
