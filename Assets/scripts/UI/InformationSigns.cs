@@ -19,8 +19,9 @@ public class InformationSigns : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        renderers.material.color = Color.white;
+        renderers.material.color = Color.red;
         hovering = true;
+        Debug.Log("hovering");
     }
 
     private void OnMouseExit()

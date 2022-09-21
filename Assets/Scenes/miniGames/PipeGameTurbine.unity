@@ -772,7 +772,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3435609924129493787, guid: 45794b7c77034dd4ea80fdb6bab7a563, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45794b7c77034dd4ea80fdb6bab7a563, type: 3}
 --- !u!4 &338067427 stripped
 Transform:
@@ -850,7 +851,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: pipeBentSTART
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8718820570159804741, guid: 3848cce9e744ea74d8cdc4ed6c3f59ae, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3848cce9e744ea74d8cdc4ed6c3f59ae, type: 3}
 --- !u!4 &356741055 stripped
 Transform:
@@ -1187,7 +1189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31143752, y: 0.18522222}
   m_AnchorMax: {x: 0.68989575, y: 0.81755555}
-  m_AnchoredPosition: {x: -1, y: -1.5000153}
+  m_AnchoredPosition: {x: -1, y: -1.5}
   m_SizeDelta: {x: 0.7163086, y: 2.5220947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603295829
@@ -3394,7 +3396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31143752, y: 0.18522222}
   m_AnchorMax: {x: 0.68989575, y: 0.81755555}
-  m_AnchoredPosition: {x: -1.5401611, y: -1.5000153}
+  m_AnchoredPosition: {x: -1.5401611, y: -1.5}
   m_SizeDelta: {x: 1.6400146, y: 2.5221}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1950908432
