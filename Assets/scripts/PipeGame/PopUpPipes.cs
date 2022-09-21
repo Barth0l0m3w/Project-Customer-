@@ -46,7 +46,6 @@ public class PopUpPipes : MonoBehaviour
 
     public void GoScene()
     {
-        Debug.Log("go back");
         SceneManager.LoadScene(backSceneName);
     }
 

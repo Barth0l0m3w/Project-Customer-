@@ -24,6 +24,7 @@ public class SteveLoading : MonoBehaviour
     {
         if (timesLoaded <= 1)
         {
+            GameManager.Instance.InUIMode = true;
             beginSteve.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -31,6 +32,7 @@ public class SteveLoading : MonoBehaviour
 
     public void ExitInformation()
     {
+        GameManager.Instance.InUIMode = false;
         beginSteve.SetActive(false);
         Time.timeScale = 1f;
     }

@@ -19,6 +19,8 @@ public class InformationSigns : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = Color.red;
         hovering = true;
         Debug.Log("hovering");
@@ -26,6 +28,8 @@ public class InformationSigns : MonoBehaviour
 
     private void OnMouseExit()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = startingColor;
         hovering = false;
     }

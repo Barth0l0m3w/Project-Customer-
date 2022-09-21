@@ -33,6 +33,8 @@ public class InteractableTasks : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         if (selected)
         {
             renderers.material.color = Color.red;
@@ -41,11 +43,15 @@ public class InteractableTasks : MonoBehaviour
 
     private void OnMouseExit()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = startingColor;
     }
 
     private void OnMouseDown()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         if (selected)
         {
             SceneManager.LoadScene(sceneName);
