@@ -22,9 +22,7 @@ public class GrapperMovement : MonoBehaviour
 
     bool fuelHasBeenCollected = false;
 
-
     Rigidbody rb;
-
 
     private void Start()
     {
@@ -39,23 +37,16 @@ public class GrapperMovement : MonoBehaviour
         }
 
         //Movement
-
-
-        
-
         if (Input.GetKey(KeyCode.A))
         {
-
             //transform.localPosition += new Vector3(0, 0, speed / 2);
-            rb.AddForce(speed * zDirection.forward);
+            rb.AddForce(speed * zDirection.forward * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.D))
         {
-
             //transform.localPosition += new Vector3(0, 0, -speed / 2);
-            rb.AddForce(speed * - zDirection.forward);
+            rb.AddForce(speed * - zDirection.forward * Time.deltaTime);
         }
-
         //DEBUG
         if (Input.GetKey(KeyCode.E))
         {
