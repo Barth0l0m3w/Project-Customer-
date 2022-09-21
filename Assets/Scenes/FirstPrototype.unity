@@ -11492,7 +11492,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Hello there! Welcome to the EPR OL4 in Finland. \r\n\r\nAs this is your
+    first day, I'll be joining you to show you how to boot up the power plant! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28780,7 +28781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8265820091389894641, guid: 73ee6126f191a2b41a61fb5da5b2e3d2, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8265820091389894641, guid: 73ee6126f191a2b41a61fb5da5b2e3d2, type: 3}
       propertyPath: m_AnchorMax.x
