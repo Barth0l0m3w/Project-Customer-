@@ -38,6 +38,7 @@ public class InformationSigns : MonoBehaviour
     {
         if (hovering)
         {
+            GameManager.Instance.InUIMode = true;
             informationUI.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -45,6 +46,7 @@ public class InformationSigns : MonoBehaviour
 
     public void ExitInformation()
     {
+        GameManager.Instance.InUIMode = false;
         informationUI.SetActive(false);
         Time.timeScale = 1f;
     }
