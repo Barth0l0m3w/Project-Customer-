@@ -21,6 +21,8 @@ public class PressureGame : MonoBehaviour
     }
     public void WrongAnswer()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         failed = true;
         FailedUI.SetActive(true);
         AnswersUI.SetActive(false);
@@ -28,6 +30,8 @@ public class PressureGame : MonoBehaviour
 
     public void GoodAnswer()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         won = true;
         CompleteUI.SetActive(true);
         AnswersUI.SetActive(false);

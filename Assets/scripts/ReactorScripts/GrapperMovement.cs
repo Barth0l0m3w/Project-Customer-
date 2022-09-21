@@ -31,6 +31,8 @@ public class GrapperMovement : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         if (fuelHasBeenCollected == true)
         {
             CheckIfShouldShoot();

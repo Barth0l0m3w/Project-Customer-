@@ -17,7 +17,6 @@ public class Pipes : MonoBehaviour
 
     private float changeAngle = 90.0f;
 
-
     void Start()
     {
         check = GetComponentInParent<TrueChecking>();
@@ -36,6 +35,8 @@ public class Pipes : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         Pipe.transform.Rotate(Vector3.up, changeAngle);
     }
 
