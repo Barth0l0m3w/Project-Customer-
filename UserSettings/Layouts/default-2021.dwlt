@@ -15,6 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 7.2000003
     y: 50.4
     width: 1521.6
@@ -31,6 +32,15 @@ MonoBehaviour:
   m_Title: Project
   m_RootView: {fileID: 4}
 >>>>>>> Update3Dpuzzles
+=======
+    x: 0
+    y: 43.2
+    width: 1536
+    height: 820.8
+  m_ShowMode: 4
+  m_Title: Animation
+  m_RootView: {fileID: 6}
+>>>>>>> Animations
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
@@ -43,6 +53,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Animations
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -54,12 +67,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1521.6
     height: 708.4
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 90
+=======
+    width: 1536
+    height: 770.8
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 109
+>>>>>>> Animations
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -69,6 +91,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
 =======
@@ -76,10 +99,15 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ProjectBrowser
 >>>>>>> Update3Dpuzzles
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+>>>>>>> Animations
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 1161.6
     y: 0
@@ -101,6 +129,17 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 15}
 >>>>>>> Update3Dpuzzles
+=======
+    x: 1173.6
+    y: 0
+    width: 362.40002
+    height: 770.8
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+>>>>>>> Animations
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -116,21 +155,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Animations
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 288
     height: 552
+=======
+    width: 290.4
+    height: 450.4
+>>>>>>> Animations
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
+<<<<<<< HEAD
 =======
   m_Children:
   - {fileID: 9}
@@ -147,6 +195,8 @@ MonoBehaviour:
   controlID: 76
 --- !u!114 &4
 >>>>>>> Update3Dpuzzles
+=======
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,13 +206,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
   m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+=======
+  m_Name: AnimationWindow
+  m_EditorClassIdentifier: 
+>>>>>>> Animations
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 552
     width: 1161.6
     height: 156.40002
@@ -194,6 +250,21 @@ MonoBehaviour:
   m_BottomViewHeight: 20
 --- !u!114 &5
 >>>>>>> Update3Dpuzzles
+=======
+    y: 450.4
+    width: 1173.6
+    height: 320.4
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 19}
+  - {fileID: 13}
+  m_Selected: 2
+  m_LastSelected: 0
+--- !u!114 &6
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,8 +285,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1521.6
     height: 758.4
+=======
+    width: 1536
+    height: 820.8
+>>>>>>> Animations
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -223,6 +299,7 @@ MonoBehaviour:
   m_UseBottomView: 1
   m_BottomViewHeight: 20
 --- !u!114 &7
+<<<<<<< HEAD
 =======
     width: 1536
     height: 30
@@ -231,6 +308,8 @@ MonoBehaviour:
   m_LastLoadedLayoutName: 
 --- !u!114 &6
 >>>>>>> Update3Dpuzzles
+=======
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,17 +322,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Animations
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1521.6
+=======
+    width: 1536
+>>>>>>> Animations
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
 --- !u!114 &8
+<<<<<<< HEAD
 =======
   m_Children:
   - {fileID: 8}
@@ -271,6 +358,8 @@ MonoBehaviour:
   controlID: 120
 --- !u!114 &7
 >>>>>>> Update3Dpuzzles
+=======
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,12 +376,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 738.4
     width: 1521.6
 =======
     y: 752.8
     width: 1536
 >>>>>>> Update3Dpuzzles
+=======
+    y: 800.8
+    width: 1536
+>>>>>>> Animations
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -310,16 +404,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 10}
   - {fileID: 5}
 =======
   - {fileID: 11}
   - {fileID: 12}
 >>>>>>> Update3Dpuzzles
+=======
+  - {fileID: 10}
+  - {fileID: 5}
+>>>>>>> Animations
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1161.6
     height: 708.4
@@ -337,6 +437,15 @@ MonoBehaviour:
   controlID: 97
 --- !u!114 &9
 >>>>>>> Update3Dpuzzles
+=======
+    width: 1173.6
+    height: 770.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 110
+--- !u!114 &10
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -355,6 +464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1161.6
     height: 552
@@ -375,6 +485,15 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &10
 >>>>>>> Update3Dpuzzles
+=======
+    width: 1173.6
+    height: 450.4
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 111
+--- !u!114 &11
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -384,11 +503,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
   m_Name: SceneView
+=======
+  m_Name: GameView
+>>>>>>> Animations
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 288
     y: 0
@@ -471,6 +595,22 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
+=======
+    x: 290.4
+    y: 0
+    width: 883.19995
+    height: 450.4
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -478,6 +618,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 1
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -494,10 +635,29 @@ MonoBehaviour:
     y: 73.6
     width: 384.39996
     height: 444.6
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 290.4
+    y: 73.6
+    width: 881.19995
+    height: 429.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+<<<<<<< HEAD
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
@@ -528,6 +688,45 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 6bb978e91b9a8c247aed7c4700d1a0b3
 --- !u!114 &14
+=======
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 3869310755893082553, guid: 9bdcaa255365f0846948cf9d19f20965, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.93400735
+      e01: 0
+      e02: 0
+      e03: 46.8284
+      e10: 0
+      e11: 0.93400735
+      e12: 0
+      e13: 10.830704
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 9bdcaa255365f0846948cf9d19f20965, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 3869310755893082553, guid: 9bdcaa255365f0846948cf9d19f20965, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -535,13 +734,14 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
+<<<<<<< HEAD
     m_Text: Inspector
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
@@ -551,24 +751,30 @@ MonoBehaviour:
     y: 73.6
     width: 399.80005
     height: 701.8
+=======
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 524
+    width: 1172.6
+    height: 299.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: -160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &15
+=======
+  m_LastSelectedObjectID: -14890
+--- !u!114 &14
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -577,7 +783,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 >>>>>>> Update3Dpuzzles
+=======
+>>>>>>> Animations
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -590,6 +799,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 7.2000003
     y: 632.8
     width: 1160.6
@@ -600,6 +810,12 @@ MonoBehaviour:
     width: 384.39996
     height: 236.19998
 >>>>>>> Update3Dpuzzles
+=======
+    x: 0
+    y: 524
+    width: 1172.6
+    height: 299.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -618,15 +834,20 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Scenes
 >>>>>>> Update3Dpuzzles
+=======
+    - Assets/Animations
+>>>>>>> Animations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - Assets
 =======
@@ -634,11 +855,17 @@ MonoBehaviour:
 >>>>>>> Update3Dpuzzles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\julie\Documents\SaxionCMGT\Y2\Project Customer\Unity\Project-Customer-
+=======
+  - Assets/Animations
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\bianc\OneDrive\Documente\UNITY\Project-Customer-
+>>>>>>> Animations
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 867a0000
     m_LastClickedID: 31366
     m_ExpandedIDs: 00000000707a0000727a0000747a0000767a0000787a00007a7a000000ca9a3b
@@ -648,6 +875,11 @@ MonoBehaviour:
     m_LastClickedID: 29918
     m_ExpandedIDs: 00000000da740000dc740000de740000e0740000e2740000e47400002a7600003276000000ca9a3b
 >>>>>>> Update3Dpuzzles
+=======
+    m_SelectedIDs: f0830000
+    m_LastClickedID: 33776
+    m_ExpandedIDs: 00000000407d0000427d0000447d0000467d0000487d00009a7e0000ae7e000000ca9a3b
+>>>>>>> Animations
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -676,10 +908,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000707a0000727a0000747a0000767a0000787a00007a7a0000
 =======
     m_ExpandedIDs: 00000000da740000dc740000de740000e0740000e2740000e4740000
 >>>>>>> Update3Dpuzzles
+=======
+    m_ExpandedIDs: 00000000407d0000427d0000447d0000467d0000487d0000
+>>>>>>> Animations
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -704,6 +940,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
@@ -713,6 +950,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
 >>>>>>> Update3Dpuzzles
+=======
+    m_SelectedInstanceIDs: d6c5ffff
+    m_LastClickedInstanceID: -14890
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Animations
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -728,7 +971,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> Animations
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -739,6 +986,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
+<<<<<<< HEAD
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &13
@@ -749,6 +997,11 @@ MonoBehaviour:
   m_DirectoriesAreaWidth: 50
 --- !u!114 &16
 >>>>>>> Update3Dpuzzles
+=======
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &15
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,10 +1021,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1168.8
     y: 80.8
     width: 359
     height: 687.4
+=======
+    x: 1173.6
+    y: 73.6
+    width: 361.40002
+    height: 749.8
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -789,7 +1049,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &14
+=======
+--- !u!114 &16
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -805,6 +1069,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Text: Hierarchy
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
@@ -817,18 +1082,29 @@ MonoBehaviour:
 =======
     m_Text: Game
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+=======
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+>>>>>>> Animations
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 408
     width: 747.8
     height: 367.4
 >>>>>>> Update3Dpuzzles
+=======
+    y: 73.6
+    width: 289.4
+    height: 429.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SceneHierarchy:
     m_TreeViewState:
@@ -836,6 +1112,14 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: eefaffff
+=======
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: eec5ffff
+      m_LastClickedID: -14866
+      m_ExpandedIDs: eec5fffffac5ffff0cc6ffff2eedffff30edffff34f8ffff6e810000
+>>>>>>> Animations
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -851,7 +1135,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -859,6 +1143,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
+<<<<<<< HEAD
 --- !u!114 &15
 =======
   m_SerializedViewNames: []
@@ -927,6 +1212,9 @@ MonoBehaviour:
   m_RenderTexture: {fileID: 0}
 --- !u!114 &17
 >>>>>>> Update3Dpuzzles
+=======
+--- !u!114 &17
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,6 +1235,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 295.2
     y: 80.8
     width: 871.6
@@ -957,6 +1246,12 @@ MonoBehaviour:
     width: 747.8
     height: 313.4
 >>>>>>> Update3Dpuzzles
+=======
+    x: 290.4
+    y: 73.6
+    width: 881.19995
+    height: 429.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1182,10 +1477,14 @@ MonoBehaviour:
       index: 13
       layout: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
 =======
   m_WindowGUID: 03a9df6973729fd44a3d882f30ddab2f
 >>>>>>> Update3Dpuzzles
+=======
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+>>>>>>> Animations
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -1196,6 +1495,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
@@ -1204,6 +1504,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 98.65822, y: -25.572208, z: 20.820568}
 >>>>>>> Update3Dpuzzles
+=======
+    m_Target: {x: -7.7747536, y: 17.707195, z: -5.4336143}
+    speed: 2
+    m_Value: {x: -7.7747536, y: 17.707195, z: -5.4336143}
+>>>>>>> Animations
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1250,6 +1555,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
@@ -1263,6 +1569,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 106.85164
 >>>>>>> Update3Dpuzzles
+=======
+    m_Target: {x: 0.09799184, y: 0.9012345, z: -0.27760458, w: 0.31808797}
+    speed: 2
+    m_Value: {x: 0.097096756, y: 0.90209454, z: -0.27638865, w: 0.3168706}
+  m_Size:
+    m_Target: 22.937712
+    speed: 2
+    m_Value: 21.949963
+>>>>>>> Animations
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1281,17 +1596,25 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
 =======
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
 >>>>>>> Update3Dpuzzles
+=======
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> Animations
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 --- !u!114 &16
+=======
+--- !u!114 &18
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1311,10 +1634,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 295.2
     y: 80.8
     width: 871.6
     height: 531
+=======
+    x: 290.4
+    y: 73.6
+    width: 881.19995
+    height: 429.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1325,7 +1655,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 871.6, y: 510}
+=======
+  m_TargetSize: {x: 881.19995, y: 408.4}
+>>>>>>> Animations
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1340,10 +1674,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -348.63998
     m_HBaseRangeMax: 348.63998
     m_VBaseRangeMin: -204
     m_VBaseRangeMax: 204
+=======
+    m_HBaseRangeMin: -352.47998
+    m_HBaseRangeMax: 352.47998
+    m_VBaseRangeMin: -163.36
+    m_VBaseRangeMax: 163.36
+>>>>>>> Animations
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1352,7 +1693,11 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
+<<<<<<< HEAD
     m_EnableMouseInput: 0
+=======
+    m_EnableMouseInput: 1
+>>>>>>> Animations
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1361,16 +1706,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 871.6
       height: 510
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 435.8, y: 255}
+=======
+      width: 881.19995
+      height: 408.4
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 440.59998, y: 204.2}
+>>>>>>> Animations
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -435.8
       y: -255
       width: 871.6
@@ -1378,12 +1731,25 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1089.5, y: 663.75}
+=======
+      x: -440.59998
+      y: -204.2
+      width: 881.19995
+      height: 408.4
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1101.5, y: 536.75}
+>>>>>>> Animations
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &17
+=======
+--- !u!114 &19
+>>>>>>> Animations
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1403,10 +1769,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 2249
     y: 726.5
     width: 920
     height: 250
+=======
+    x: 0
+    y: 524
+    width: 1172.6
+    height: 299.4
+>>>>>>> Animations
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
