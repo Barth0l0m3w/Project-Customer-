@@ -3013,6 +3013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653366361784}
   - component: {fileID: 342260055}
+  - component: {fileID: 919132149362934787}
   m_Layer: 0
   m_Name: NukeReactor no room
   m_TagString: Untagged
@@ -3020,6 +3021,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &919132149362934787
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149362934786}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ca402fdeb7e9e54581e5236d71e3edb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1094216956022969251
 GameObject:
   m_ObjectHideFlags: 0
