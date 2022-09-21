@@ -31,7 +31,7 @@ public class Pipes : MonoBehaviour
 
     private void GetAngle()
     {
-        rotation = GameObject.eulerAngles.z;
+        rotation = GameObject.eulerAngles.y;
     }
 
     private void OnMouseDown()
