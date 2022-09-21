@@ -36,7 +36,7 @@ public class Pipes : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Pipe.transform.Rotate(Vector3.forward, changeAngle);
+        Pipe.transform.Rotate(Vector3.up, changeAngle);
     }
 
     private void IsCorrect()
