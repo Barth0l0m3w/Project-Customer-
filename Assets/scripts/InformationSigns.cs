@@ -19,7 +19,7 @@ public class InformationSigns : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        renderers.material.color = Color.red;
+        renderers.material.color = Color.white;
         hovering = true;
     }
 
