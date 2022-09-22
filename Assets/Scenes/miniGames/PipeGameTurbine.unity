@@ -2770,7 +2770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: PipeTurn
-    clip: {fileID: 8300000, guid: 8b510f5cd8f06244f97289fdb4a9dcf7, type: 3}
+    clip: {fileID: 8300000, guid: d8cccfa0dbe38bc47b0ed66a56ef27bf, type: 3}
     volume: 1
     pitch: 1.09
     source: {fileID: 0}
