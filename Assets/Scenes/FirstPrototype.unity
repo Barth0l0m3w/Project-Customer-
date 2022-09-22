@@ -1069,10 +1069,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1831856684}
   - {fileID: 922026793}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &182428902
 MonoBehaviour:
@@ -2353,7 +2352,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &350232556
 GameObject:
@@ -11392,7 +11391,7 @@ Transform:
   - {fileID: 1896946970}
   - {fileID: 1353671668}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &891774395 stripped
 Transform:
@@ -11570,24 +11569,24 @@ MonoBehaviour:
     pitch: 1.55
     source: {fileID: 0}
   - name: BtnHover
-    clip: {fileID: 8300000, guid: dc0146c177a58724aa11b8353e1c7f3d, type: 3}
+    clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
     volume: 0.5
-    pitch: 1.58
+    pitch: 0.69
     source: {fileID: 0}
   - name: BntClick
-    clip: {fileID: 8300000, guid: d8cccfa0dbe38bc47b0ed66a56ef27bf, type: 3}
+    clip: {fileID: 8300000, guid: b67a13f83fa4644408dd0adc1fa2b7e8, type: 3}
     volume: 0.52
-    pitch: 1.59
+    pitch: 0.62
     source: {fileID: 0}
   - name: ClickInfo
-    clip: {fileID: 8300000, guid: 424b087696f64cb4a83aa69d452173b7, type: 3}
+    clip: {fileID: 8300000, guid: b67a13f83fa4644408dd0adc1fa2b7e8, type: 3}
     volume: 0.52
-    pitch: 1.59
+    pitch: 0.87
     source: {fileID: 0}
   - name: HoverBuilding
-    clip: {fileID: 8300000, guid: 424b087696f64cb4a83aa69d452173b7, type: 3}
+    clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
     volume: 0.52
-    pitch: 1.59
+    pitch: 0.74
     source: {fileID: 0}
 --- !u!4 &922026793
 Transform:
@@ -11602,7 +11601,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 182428901}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &940481886
 GameObject:
@@ -23312,7 +23311,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1766359250
 PrefabInstance:
@@ -23697,7 +23696,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1833280256
 GameObject:
@@ -29198,7 +29197,7 @@ RectTransform:
   - {fileID: 1580739135}
   - {fileID: 1302063960}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
