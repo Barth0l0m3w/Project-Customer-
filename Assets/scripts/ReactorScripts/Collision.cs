@@ -11,10 +11,8 @@ public class Collision : MonoBehaviour
     {
         other.GetComponent<GrapperMovement>().SetFuel();
         ScoreManager.instance.IncreaseScore(1);
-
+        FindObjectOfType<AudioManager>().Play("UraniumPickup");
         collectFuel.color = Color.green;
-
-
         Destroy(this.gameObject);
     }
 }

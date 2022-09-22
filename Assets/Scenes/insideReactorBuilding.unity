@@ -894,6 +894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 144ae0541b27c37489b84cf45fd5e06e, type: 3}
+--- !u!4 &331002060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 144ae0541b27c37489b84cf45fd5e06e, type: 3}
+  m_PrefabInstance: {fileID: 331002059}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &342260055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1131,6 +1136,7 @@ GameObject:
   - component: {fileID: 491858244}
   - component: {fileID: 491858245}
   - component: {fileID: 491858246}
+  - component: {fileID: 491858247}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -1228,7 +1234,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2823687678089352536, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2823687678089352536, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1315,8 +1321,9 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &659772932 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ccff92b8cebecc2429b5e89c4f07a41a, type: 3}
-  m_PrefabInstance: {fileID: 1117255774}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &693064919 stripped
 Transform:
@@ -2836,7 +2843,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 618d308490184dc4f8f229b47d3d68e3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 618d308490184dc4f8f229b47d3d68e3, type: 3}
       propertyPath: m_LocalPosition.x

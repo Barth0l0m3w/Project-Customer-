@@ -73,6 +73,7 @@ public class GrapperMovement : MonoBehaviour
         if (fuelList.Count < maxSpawnAmount)
         {
             fuelList.Add(Instantiate(Uranium, spawnpoint.transform.position, spawnpoint.transform.rotation));
+            FindObjectOfType<AudioManager>().Play("UraniumDrop");
         }
     }
 
