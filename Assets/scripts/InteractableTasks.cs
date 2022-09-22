@@ -54,8 +54,8 @@ public class InteractableTasks : MonoBehaviour
 
         if (selected)
         {
-            FindObjectOfType<AudioManager>().Play("InteriorClick");
             SceneManager.LoadScene(sceneName);
+            FindObjectOfType<AudioManager>().Play("InteriorClick");
             Time.timeScale = 1f;
             OrderMaker.task++;
         }
