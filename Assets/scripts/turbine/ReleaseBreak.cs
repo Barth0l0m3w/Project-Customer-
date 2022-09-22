@@ -27,6 +27,8 @@ public class ReleaseBreak : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         lever.transform.Rotate(Vector3.left, changeAngle);
         timesClicked ++;
     }

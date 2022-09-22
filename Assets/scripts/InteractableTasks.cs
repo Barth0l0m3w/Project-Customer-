@@ -55,6 +55,7 @@ public class InteractableTasks : MonoBehaviour
         if (selected)
         {
             SceneManager.LoadScene(sceneName);
+            Time.timeScale = 1f;
             OrderMaker.task++;
         }
     }

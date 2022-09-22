@@ -23,7 +23,6 @@ public class InformationSigns : MonoBehaviour
 
         renderers.material.color = Color.red;
         hovering = true;
-        Debug.Log("hovering");
     }
 
     private void OnMouseExit()
