@@ -867,7 +867,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: PipeGameWaste
-  selected: 0
   selectNumber: 5
 --- !u!1 &959848685
 GameObject:
@@ -1006,8 +1005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.82600003, y: 0}
   m_AnchorMax: {x: 1, y: 0.666}
-  m_AnchoredPosition: {x: 0.20483398, y: -60.99997}
-  m_SizeDelta: {x: 0.40948486, y: 120.7088}
+  m_AnchoredPosition: {x: -0.000030517578, y: -87.11502}
+  m_SizeDelta: {x: 40.587, y: 68.478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108005263
 MonoBehaviour:
@@ -1566,8 +1565,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.82600003, y: 0}
   m_AnchorMax: {x: 1, y: 0.666}
-  m_AnchoredPosition: {x: 0.20483398, y: -60.99997}
-  m_SizeDelta: {x: 0.40948486, y: 120.7088}
+  m_AnchoredPosition: {x: -0.000061035156, y: -85.00003}
+  m_SizeDelta: {x: 28.533, y: 56.425}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645484619
 MonoBehaviour:
