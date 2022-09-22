@@ -14,11 +14,6 @@ public class SteveLoadingReactor : MonoBehaviour
         timesLoaded ++;
     }
 
-    void Update()
-    {
-        LoadSteve();
-    }
-
     private void LoadSteve()
     {
         Time.timeScale = 0f;
