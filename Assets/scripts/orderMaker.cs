@@ -6,5 +6,4 @@ public class OrderMaker : MonoBehaviour
 {
     public static int task;
     public static int order;
-
 }
