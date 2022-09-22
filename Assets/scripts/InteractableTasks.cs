@@ -35,9 +35,10 @@ public class InteractableTasks : MonoBehaviour
         if (GameManager.Instance.InUIMode) return;
 
         if (selected)
-        {
-            renderers.material.color = Color.red; 
+        {   
+            renderers.material.color = Color.red;
             FindObjectOfType<AudioManager>().Play("InteriorHover");
+            
         }
     }
 
@@ -55,6 +56,7 @@ public class InteractableTasks : MonoBehaviour
         if (selected)
         {
             SceneManager.LoadScene(sceneName);
+            //FindObjectOfType<AudioManager>().Play("InteriorClick");
             Time.timeScale = 1f;
             OrderMaker.task++;
             FindObjectOfType<AudioManager>().Play("InteriorClick");
