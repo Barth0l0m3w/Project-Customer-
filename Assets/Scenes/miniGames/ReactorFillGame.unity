@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 115416452}
   - component: {fileID: 115416454}
   - component: {fileID: 115416455}
+  - component: {fileID: 115416456}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -280,6 +281,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 824272385}
+--- !u!114 &115416456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115416451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42a7795886a68d42a3caa2b189fe75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: UraniumDrop
+    clip: {fileID: 8300000, guid: f1efb2332ef2afd4f9ee4082ebdd3d3e, type: 3}
+    volume: 0.5
+    pitch: 1.89
+    source: {fileID: 0}
+  - name: UraniumPickup
+    clip: {fileID: 8300000, guid: caa0141247b484547a3feecaaa5964e8, type: 3}
+    volume: 0.52
+    pitch: 1.84
+    source: {fileID: 0}
 --- !u!1 &143447844
 GameObject:
   m_ObjectHideFlags: 0
