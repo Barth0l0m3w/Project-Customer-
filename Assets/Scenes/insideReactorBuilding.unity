@@ -1226,8 +1226,8 @@ MonoBehaviour:
   sounds:
   - name: InteriorHover
     clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 0.42
+    pitch: 0.43
     source: {fileID: 0}
 --- !u!114 &536596541
 MonoBehaviour:
