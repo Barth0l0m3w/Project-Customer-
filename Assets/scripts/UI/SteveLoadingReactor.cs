@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SteveLoading : MonoBehaviour
+public class SteveLoadingReactor : MonoBehaviour
 {
     public static int timesLoaded;
     public GameObject beginSteve;
@@ -11,7 +11,7 @@ public class SteveLoading : MonoBehaviour
     void Start()
     {
         LoadSteve();
-        timesLoaded = 1;
+        timesLoaded ++;
     }
 
     void Update()
@@ -22,7 +22,7 @@ public class SteveLoading : MonoBehaviour
 
     private void LoadSteve()
     {
-
+        Time.timeScale = 0f;
         if (timesLoaded <= 1)
         {
             GameManager.Instance.InUIMode = true;
@@ -41,6 +41,7 @@ public class SteveLoading : MonoBehaviour
 
     public void ExitInformation()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.InUIMode = false;
 
         if (beginSteve == isActiveAndEnabled)

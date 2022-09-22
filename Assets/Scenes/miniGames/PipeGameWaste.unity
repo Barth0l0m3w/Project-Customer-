@@ -1477,8 +1477,8 @@ GameObject:
   m_Component:
   - component: {fileID: 629121932}
   - component: {fileID: 629121931}
-  - component: {fileID: 629121930}
   - component: {fileID: 629121929}
+  - component: {fileID: 629121933}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -1499,20 +1499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InUIMode: 0
---- !u!114 &629121930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629121928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beginSteve: {fileID: 1991398394}
-  beginSteve2: {fileID: 0}
 --- !u!114 &629121931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,6 +1532,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &629121933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629121928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01faa3ce8f0708042a176808b9e5f61f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSteve: {fileID: 1991398394}
 --- !u!1 &647361939
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,8 +3675,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 629121930}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+      - m_Target: {fileID: 629121933}
+        m_TargetAssemblyTypeName: SteveLoadingGames, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:

@@ -206,8 +206,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 550224527}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+      - m_Target: {fileID: 611516238}
+        m_TargetAssemblyTypeName: SteveLoadingGames, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.57254905, g: 0.81960785, b: 1, a: 0.53333336}
+  m_Color: {r: 0.57254905, g: 0.81960785, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -753,52 +753,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532812965}
   m_CullTransparentMesh: 1
---- !u!1 &550224526
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 550224528}
-  - component: {fileID: 550224527}
-  m_Layer: 0
-  m_Name: scriptHolder (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &550224527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 550224526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beginSteve: {fileID: 1749915149}
-  beginSteve2: {fileID: 0}
---- !u!4 &550224528
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 550224526}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4765663, y: 0.041159034, z: -4.039715}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &571644367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1034,7 @@ GameObject:
   - component: {fileID: 611516236}
   - component: {fileID: 611516235}
   - component: {fileID: 611516237}
+  - component: {fileID: 611516238}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -1118,7 +1073,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &611516237
 MonoBehaviour:
@@ -1133,6 +1088,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InUIMode: 0
+--- !u!114 &611516238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611516234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01faa3ce8f0708042a176808b9e5f61f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSteve: {fileID: 1749915149}
 --- !u!1 &614169085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1377,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &746139832
 GameObject:
@@ -1519,7 +1487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.57254905, g: 0.81960785, b: 1, a: 0.5254902}
+  m_Color: {r: 0.57254905, g: 0.81960785, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1834,7 +1802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5707547, g: 0.82138324, b: 1, a: 0.36862746}
+  m_Color: {r: 0.5707547, g: 0.82138324, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3514,7 +3482,7 @@ RectTransform:
   - {fileID: 425581572}
   - {fileID: 980621138}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

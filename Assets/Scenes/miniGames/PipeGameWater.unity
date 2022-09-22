@@ -2390,8 +2390,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1123210603}
   - component: {fileID: 1123210602}
-  - component: {fileID: 1123210605}
   - component: {fileID: 1123210604}
+  - component: {fileID: 1123210605}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -2454,11 +2454,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1123210601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
+  m_Script: {fileID: 11500000, guid: 01faa3ce8f0708042a176808b9e5f61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 2125747253}
-  beginSteve2: {fileID: 0}
 --- !u!4 &1289701805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7504135014453200160, guid: c5691a5da3789654eae1860d8c2b85c8, type: 3}
@@ -2553,7 +2552,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1123210605}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+        m_TargetAssemblyTypeName: SteveLoadingGames, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:

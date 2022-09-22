@@ -276,11 +276,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 115416451}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
+  m_Script: {fileID: 11500000, guid: 01faa3ce8f0708042a176808b9e5f61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 824272385}
-  beginSteve2: {fileID: 0}
 --- !u!1 &143447844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4181,7 +4180,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 115416455}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+        m_TargetAssemblyTypeName: SteveLoadingGames, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:

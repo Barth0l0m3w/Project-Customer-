@@ -566,8 +566,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491858241}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+      - m_Target: {fileID: 491858246}
+        m_TargetAssemblyTypeName: SteveLoadingReactor, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:
@@ -833,10 +833,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 491858242}
-  - component: {fileID: 491858241}
   - component: {fileID: 491858243}
   - component: {fileID: 491858244}
   - component: {fileID: 491858245}
+  - component: {fileID: 491858246}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -844,20 +844,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &491858241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491858239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beginSteve: {fileID: 1885222432}
-  beginSteve2: {fileID: 1537433851}
 --- !u!4 &491858242
 Transform:
   m_ObjectHideFlags: 0
@@ -911,6 +897,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSceneName: FirstPrototype
+--- !u!114 &491858246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491858239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbfc06a13e8b9244875265359c90090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSteve: {fileID: 1885222432}
+  beginSteve2: {fileID: 1537433851}
 --- !u!114 &536596541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,8 +1119,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491858241}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+      - m_Target: {fileID: 491858246}
+        m_TargetAssemblyTypeName: SteveLoadingReactor, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:

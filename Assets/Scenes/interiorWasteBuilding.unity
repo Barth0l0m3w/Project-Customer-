@@ -278,7 +278,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 270837359}
-  - component: {fileID: 270837357}
+  - component: {fileID: 270837361}
+  - component: {fileID: 270837360}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -286,20 +287,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &270837357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270837356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec4f8bb3cc90a64aaa2b32a763584d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beginSteve: {fileID: 959848685}
-  beginSteve2: {fileID: 463496605}
 --- !u!4 &270837359
 Transform:
   m_ObjectHideFlags: 0
@@ -315,6 +302,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &270837360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270837356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe5874b775ba234dad67f9809a61413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InUIMode: 0
+--- !u!114 &270837361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270837356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a687e34cc652e468d0545f1c5a07a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSteve: {fileID: 959848685}
+  beginSteve2: {fileID: 463496605}
 --- !u!1 &463496605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,8 +1270,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 270837357}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+      - m_Target: {fileID: 270837361}
+        m_TargetAssemblyTypeName: SteveLoadingWaste, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:
@@ -1676,8 +1690,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 270837357}
-        m_TargetAssemblyTypeName: SteveLoading, Assembly-CSharp
+      - m_Target: {fileID: 270837361}
+        m_TargetAssemblyTypeName: SteveLoadingWaste, Assembly-CSharp
         m_MethodName: ExitInformation
         m_Mode: 1
         m_Arguments:
