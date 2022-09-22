@@ -9,7 +9,7 @@ public class InteractableTasks : MonoBehaviour
     private Renderer renderers;
 
     public string sceneName;
-    public bool selected = false;
+    private bool selected = false;
     public int selectNumber;
 
 
@@ -33,6 +33,8 @@ public class InteractableTasks : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         if (selected)
         {
             renderers.material.color = Color.red;
@@ -41,14 +43,19 @@ public class InteractableTasks : MonoBehaviour
 
     private void OnMouseExit()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = startingColor;
     }
 
     private void OnMouseDown()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         if (selected)
         {
             SceneManager.LoadScene(sceneName);
+            Time.timeScale = 1f;
             OrderMaker.task++;
         }
     }

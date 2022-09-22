@@ -46,12 +46,13 @@ public class PopUpPipes : MonoBehaviour
 
     public void GoScene()
     {
-        Debug.Log("go back");
+        GameManager.Instance.InUIMode = false;
         SceneManager.LoadScene(backSceneName);
     }
 
     public void RestartScene()
     {
+        GameManager.Instance.InUIMode = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

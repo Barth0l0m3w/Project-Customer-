@@ -19,12 +19,16 @@ public class InformationSigns : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        renderers.material.color = Color.white;
+        if (GameManager.Instance.InUIMode) return;
+
+        renderers.material.color = Color.red;
         hovering = true;
     }
 
     private void OnMouseExit()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         renderers.material.color = startingColor;
         hovering = false;
     }
@@ -33,6 +37,7 @@ public class InformationSigns : MonoBehaviour
     {
         if (hovering)
         {
+            GameManager.Instance.InUIMode = true;
             informationUI.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -40,6 +45,7 @@ public class InformationSigns : MonoBehaviour
 
     public void ExitInformation()
     {
+        GameManager.Instance.InUIMode = false;
         informationUI.SetActive(false);
         Time.timeScale = 1f;
     }

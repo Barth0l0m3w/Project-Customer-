@@ -11,9 +11,11 @@ public class InteractableObjectSelection : MonoBehaviour
     public ToolTipSystem tooltipSystem;
 
     public string sceneName;
-
     public string content;
     public string header;
+
+    public int selectNumber;
+    private bool selected = false;
 
     void Start()
     {
@@ -21,28 +23,55 @@ public class InteractableObjectSelection : MonoBehaviour
         startingColor = renderers.material.color;
     }
 
+    void Update()
+    {
+        if (OrderMaker.order == selectNumber)
+        {
+            selected = true;
+        }
+        else
+        {
+            selected = false;
+        }
+    }
+
     private void OnMouseEnter()
     {
-        renderers.material.color = Color.red;
+        if (GameManager.Instance.InUIMode) return;
 
-        if (tooltipSystem != null)
+        if (selected)
         {
-            tooltipSystem.Show(content, header);
+            renderers.material.color = Color.red;
+
+            if (tooltipSystem != null)
+            {
+                tooltipSystem.Show(content, header);
+            }
         }
+
     }
 
     private void OnMouseExit()
     {
-        renderers.material.color = startingColor;
+        if (GameManager.Instance.InUIMode) return;
 
-        if (tooltipSystem != null)
+        if (selected)
         {
-            tooltipSystem.Hide();
+            renderers.material.color = startingColor;
+
+            if (tooltipSystem != null)
+            {
+                tooltipSystem.Hide();
+            }
         }
     }
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(sceneName);
+        if (selected)
+        {
+            SceneManager.LoadScene(sceneName);
+            OrderMaker.order++;
+        }
     }
 }

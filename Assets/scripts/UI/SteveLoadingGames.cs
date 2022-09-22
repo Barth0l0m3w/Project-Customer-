@@ -2,36 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SteveLoading : MonoBehaviour
+public class SteveLoadingGames : MonoBehaviour
 {
-    public static int timesLoaded;
     public GameObject beginSteve;
 
     // Start is called before the first frame update
     void Start()
     {
-        timesLoaded++;
         LoadSteve();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void LoadSteve()
     {
-        if (timesLoaded <= 1)
-        {
-            beginSteve.SetActive(true);
-            Time.timeScale = 0f;
-        }
+        Time.timeScale = 0f;
+        GameManager.Instance.InUIMode = true;
+        beginSteve.SetActive(true);
     }
 
     public void ExitInformation()
     {
-        beginSteve.SetActive(false);
         Time.timeScale = 1f;
+
+        GameManager.Instance.InUIMode = false;
+
+        beginSteve.SetActive(false);
     }
 }
