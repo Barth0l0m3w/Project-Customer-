@@ -34,15 +34,12 @@ public class PopUpPipes : MonoBehaviour
 
     private void TimeOver()
     {
-        GameManager.Instance.InUIMode = true;
         FailedUI.SetActive(true);
         failed = true;
     }
 
     public void Complete()
     {
-        GameManager.Instance.InUIMode = true;
-
         CompleteUI.SetActive(true);
         completed = true;
     }
