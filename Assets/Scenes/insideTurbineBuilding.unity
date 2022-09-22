@@ -1964,7 +1964,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: PipeGameTurbine
-  selected: 0
   selectNumber: 3
 --- !u!64 &1317290573
 MeshCollider:
@@ -3729,7 +3728,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
-  selected: 0
   selectNumber: 4
 --- !u!23 &7803278240312814250
 MeshRenderer:
@@ -3816,7 +3814,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
-  selected: 0
   selectNumber: 0
 --- !u!33 &7974005524629460215
 MeshFilter:
@@ -3937,5 +3934,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
-  selected: 0
   selectNumber: 0
