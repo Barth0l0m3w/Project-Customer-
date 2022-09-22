@@ -41,6 +41,8 @@ public class SteveLoading : MonoBehaviour
 
     public void ExitInformation()
     {
+        GameManager.Instance.InUIMode = false;
+
         if (beginSteve == isActiveAndEnabled)
         {
             beginSteve.SetActive(false);
@@ -51,6 +53,5 @@ public class SteveLoading : MonoBehaviour
             beginSteve2.SetActive(false);
             Time.timeScale = 1f;
         }
-        GameManager.Instance.InUIMode = false;
     }
 }
