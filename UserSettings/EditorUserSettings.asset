@@ -25,6 +25,7 @@ EditorUserSettings:
       value: 065204535d065b0909565f7049200744174f197d7f2e7f3375794a6ae7b9303a
       flags: 0
     RecentlyUsedSceneGuid-5:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       value: 5307040554515003545a58764120064412151e7a7a2d726228701b61b7b96d6a
       flags: 0
@@ -36,11 +37,18 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-6:
       value: 5454050455040a5d0c0b5c7714700a4412151a2b2a717361282c4f30e4b36739
 >>>>>>> lightingandskybox
-      flags: 0
-    RecentlyUsedSceneGuid-7:
+=======
       value: 5454050455040a5d0c0b5c7714700a4412151a2b2a717361282c4f30e4b36739
       flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 020604555d010b0d095c0f7a437b0d44401549732f7875357c2c4435b1e1626c
+>>>>>>> Stashed changes
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5752060453015b0b555f547a44250f44174e4b7b287f74312e2d1864e0e4606f
+      flags: 0
     RecentlyUsedSceneGuid-8:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       value: 5752060453015b0b555f547a44250f44174e4b7b287f74312e2d1864e0e4606f
       flags: 0
@@ -48,6 +56,9 @@ EditorUserSettings:
       value: 020604555d010b0d095c0f7a437b0d44401549732f7875357c2c4435b1e1626c
 =======
       value: 020604555d010b0d095c0f7a437b0d44401549732f7875357c2c4435b1e1626c
+=======
+      value: 5307040554515003545a58764120064412151e7a7a2d726228701b61b7b96d6a
+>>>>>>> Stashed changes
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 5752060453015b0b555f547a44250f44174e4b7b287f74312e2d1864e0e4606f
