@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 262.3369, g: 325.0498, b: 430.21924, a: 1}
+  m_IndirectSpecularColor: {r: 5111.8516, g: 3631.8887, b: 5613.7734, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1834,6 +1834,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2c33c5d4af06581489284fa5e81cecc8, type: 3}
   m_PrefabInstance: {fileID: 1234089009}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1290344053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 412.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 602.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -78.27798
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241826, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272599840169241836, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
+      propertyPath: m_Name
+      value: PostProcessing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd8aca72ac2952e4ea0b31b8e08831dc, type: 3}
 --- !u!1001 &1317290561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1964,7 +2021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: PipeGameTurbine
-  selected: 0
   selectNumber: 3
 --- !u!64 &1317290573
 MeshCollider:
@@ -3729,7 +3785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
-  selected: 0
   selectNumber: 4
 --- !u!23 &7803278240312814250
 MeshRenderer:
@@ -3816,7 +3871,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
-  selected: 0
   selectNumber: 0
 --- !u!33 &7974005524629460215
 MeshFilter:
@@ -3937,5 +3991,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
-  selected: 0
   selectNumber: 0
