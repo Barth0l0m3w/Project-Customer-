@@ -1907,8 +1907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 650791519}
   beginSteve2: {fileID: 1976906621}
-  audioSource: {fileID: 1013448378}
-  turbineSound: {fileID: 8300000, guid: dfbdcfc14d948ea489463bea39363e65, type: 3}
+  audiosource: {fileID: 1013448378}
+  turbinsound: {fileID: 8300000, guid: dfbdcfc14d948ea489463bea39363e65, type: 3}
 --- !u!114 &1013448376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1934,20 +1934,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 'TrubineSound '
-    clip: {fileID: 8300000, guid: dfbdcfc14d948ea489463bea39363e65, type: 3}
-    volume: 0.52
-    pitch: 0.21
+  - name: InteriorClick
+    clip: {fileID: 8300000, guid: b67a13f83fa4644408dd0adc1fa2b7e8, type: 3}
+    volume: 0.375
+    pitch: 0.61
     source: {fileID: 0}
   - name: InteriorHover
     clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
-    volume: 0.124
-    pitch: 0.24
-    source: {fileID: 0}
-  - name: InteriorClick
-    clip: {fileID: 8300000, guid: b67a13f83fa4644408dd0adc1fa2b7e8, type: 3}
-    volume: 0.153
-    pitch: 0.21
+    volume: 0.409
+    pitch: 0.65
     source: {fileID: 0}
 --- !u!82 &1013448378
 AudioSource:
@@ -1963,7 +1958,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

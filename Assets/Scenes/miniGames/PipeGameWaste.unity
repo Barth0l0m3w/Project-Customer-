@@ -1424,9 +1424,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: PipeTurn
-    clip: {fileID: 8300000, guid: 8b510f5cd8f06244f97289fdb4a9dcf7, type: 3}
-    volume: 0
-    pitch: 0
+    clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
+    volume: 0.492
+    pitch: 0.56
     source: {fileID: 0}
 --- !u!1 &647361939
 GameObject:

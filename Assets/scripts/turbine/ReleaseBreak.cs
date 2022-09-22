@@ -31,6 +31,7 @@ public class ReleaseBreak : MonoBehaviour
 
         lever.transform.Rotate(Vector3.left, changeAngle);
         timesClicked ++;
+        FindObjectOfType<AudioManager>().Play("InteriorClick");
     }
 
     private void IsCorrect()
