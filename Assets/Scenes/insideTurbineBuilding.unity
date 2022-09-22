@@ -3717,7 +3717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: ReleaseBreakGame
   selected: 0
-  selectNumber: 0
+  selectNumber: 1
 --- !u!23 &7803278240312814250
 MeshRenderer:
   m_ObjectHideFlags: 0

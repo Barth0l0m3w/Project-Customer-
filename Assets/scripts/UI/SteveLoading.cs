@@ -10,19 +10,20 @@ public class SteveLoading : MonoBehaviour
 
     void Start()
     {
-        timesLoaded++;
+        LoadSteve();
+        timesLoaded ++;
     }
 
     void Update()
     {
+        Debug.Log(timesLoaded);
         LoadSteve();
     }
 
     private void LoadSteve()
     {
-        Time.timeScale = 0f;
 
-        if (timesLoaded == 1)
+        if (timesLoaded <= 1)
         {
             GameManager.Instance.InUIMode = true;
             beginSteve.SetActive(true);
@@ -35,7 +36,6 @@ public class SteveLoading : MonoBehaviour
                 GameManager.Instance.InUIMode = true;
                 beginSteve2.SetActive(true);
             }
-            else {Time.timeScale = 1; }
         }
     }
 
@@ -51,7 +51,6 @@ public class SteveLoading : MonoBehaviour
         if (beginSteve2 == isActiveAndEnabled)
         {
             beginSteve2.SetActive(false);
-            Time.timeScale = 1f;
         }
     }
 }
