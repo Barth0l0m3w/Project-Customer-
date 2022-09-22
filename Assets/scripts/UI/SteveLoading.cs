@@ -32,6 +32,7 @@ public class SteveLoading : MonoBehaviour
         {
             if (beginSteve2 != null)
             {
+                GameManager.Instance.InUIMode = true;
                 beginSteve2.SetActive(true);
                 Debug.Log("steve2");
             }
