@@ -42,6 +42,7 @@ public class InteractableObjectSelection : MonoBehaviour
         if (selected)
         {
             renderers.material.color = Color.red;
+            FindObjectOfType<AudioManager>().Play("BtnHover");
 
             if (tooltipSystem != null)
             {

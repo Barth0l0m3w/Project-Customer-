@@ -20,7 +20,7 @@ public class InformationSigns : MonoBehaviour
     private void OnMouseEnter()
     {
         if (GameManager.Instance.InUIMode) return;
-
+        FindObjectOfType<AudioManager>().Play("BtnHover");
         renderers.material.color = Color.red;
         hovering = true;
     }
@@ -37,6 +37,7 @@ public class InformationSigns : MonoBehaviour
     {
         if (hovering)
         {
+            FindObjectOfType<AudioManager>().Play("ClickInfo");
             GameManager.Instance.InUIMode = true;
             informationUI.SetActive(true);
             Time.timeScale = 0f;
