@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 270837359}
   - component: {fileID: 270837361}
   - component: {fileID: 270837360}
+  - component: {fileID: 270837362}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -427,6 +428,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 959848685}
   beginSteve2: {fileID: 463496605}
+--- !u!114 &270837362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270837356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42a7795886a68d42a3caa2b189fe75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: InteriorHover
+    clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
+    volume: 0.299
+    pitch: 0.22
+    source: {fileID: 0}
+  - name: InteriorClick
+    clip: {fileID: 8300000, guid: b67a13f83fa4644408dd0adc1fa2b7e8, type: 3}
+    volume: 0.324
+    pitch: 0.22
+    source: {fileID: 0}
 --- !u!1 &463496605
 GameObject:
   m_ObjectHideFlags: 0
