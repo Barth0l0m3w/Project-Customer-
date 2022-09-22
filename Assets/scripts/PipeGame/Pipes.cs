@@ -38,6 +38,8 @@ public class Pipes : MonoBehaviour
         if (GameManager.Instance.InUIMode) return;
 
         Pipe.transform.Rotate(Vector3.up, changeAngle);
+
+        FindObjectOfType<AudioManager>().Play("PipeTurn");
     }
 
     private void IsCorrect()
