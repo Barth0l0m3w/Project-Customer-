@@ -34,7 +34,6 @@ public class SteveLoading : MonoBehaviour
             {
                 GameManager.Instance.InUIMode = true;
                 beginSteve2.SetActive(true);
-                Debug.Log("steve2");
             }
             else {Time.timeScale = 1; }
         }
