@@ -16,7 +16,6 @@ public class SteveLoadingWaste: MonoBehaviour
 
     void Update()
     {
-        Debug.Log(timesLoaded);
         LoadSteve();
     }
 

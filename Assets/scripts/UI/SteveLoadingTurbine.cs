@@ -16,7 +16,6 @@ public class SteveLoadingTurbine: MonoBehaviour
 
     void Update()
     {
-        Debug.Log(timesLoaded);
         LoadSteve();
     }
 

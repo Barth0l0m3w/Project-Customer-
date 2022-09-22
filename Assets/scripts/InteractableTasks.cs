@@ -9,7 +9,7 @@ public class InteractableTasks : MonoBehaviour
     private Renderer renderers;
 
     public string sceneName;
-    public bool selected = false;
+    private bool selected = false;
     public int selectNumber;
 
 

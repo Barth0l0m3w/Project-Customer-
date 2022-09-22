@@ -5,9 +5,6 @@ using UnityEngine;
 public class OrderMaker : MonoBehaviour
 {
     public static int task;
+    public static int order;
 
-    private void LateUpdate()
-    {
-        
-    }
 }

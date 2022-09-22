@@ -868,7 +868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: PipeGameWaste
   selected: 0
-  selectNumber: 0
+  selectNumber: 5
 --- !u!1 &959848685
 GameObject:
   m_ObjectHideFlags: 0

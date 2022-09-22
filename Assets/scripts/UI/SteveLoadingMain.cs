@@ -16,7 +16,6 @@ public class SteveLoadingMain : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(timesLoaded);
         LoadSteve();
     }
 

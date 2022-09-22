@@ -10338,6 +10338,7 @@ MonoBehaviour:
   sceneName: insideReactorBuilding
   content: 
   header: Reactor Building
+  selectNumber: 0
 --- !u!65 &758046682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14853,6 +14854,7 @@ MonoBehaviour:
   sceneName: interiorWasteBuilding
   content: 
   header: WasteBuilding
+  selectNumber: 2
 --- !u!64 &1339068941
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23491,6 +23493,7 @@ MonoBehaviour:
   sceneName: insideTurbineBuilding
   content: 
   header: Turbine Building
+  selectNumber: 1
 --- !u!65 &1812345472
 BoxCollider:
   m_ObjectHideFlags: 0
