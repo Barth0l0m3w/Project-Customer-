@@ -2393,6 +2393,7 @@ GameObject:
   - component: {fileID: 1123210602}
   - component: {fileID: 1123210604}
   - component: {fileID: 1123210605}
+  - component: {fileID: 1123210606}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -2459,6 +2460,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 2125747253}
+--- !u!114 &1123210606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123210601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42a7795886a68d42a3caa2b189fe75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PipeTurn
+    clip: {fileID: 8300000, guid: 207d0ab5723ba1446a69679d9f6b8e80, type: 3}
+    volume: 0.409
+    pitch: 0.63
+    source: {fileID: 0}
 --- !u!4 &1289701805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7504135014453200160, guid: c5691a5da3789654eae1860d8c2b85c8, type: 3}

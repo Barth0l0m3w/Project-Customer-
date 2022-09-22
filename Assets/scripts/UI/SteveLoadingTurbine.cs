@@ -8,8 +8,14 @@ public class SteveLoadingTurbine: MonoBehaviour
     public GameObject beginSteve;
     public GameObject beginSteve2;
 
+    [SerializeField]
+    AudioSource audiosource;
+    [SerializeField]
+    AudioClip turbinsound;
     void Start()
     {
+        audiosource.clip = turbinsound;
+        audiosource.Play();
         LoadSteve();
         timesLoaded++;
     }
