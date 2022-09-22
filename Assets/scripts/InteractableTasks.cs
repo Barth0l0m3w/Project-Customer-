@@ -12,7 +12,6 @@ public class InteractableTasks : MonoBehaviour
     private bool selected = false;
     public int selectNumber;
 
-
     void Start()
     {
         renderers = GetComponent<Renderer>();

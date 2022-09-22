@@ -6,7 +6,6 @@ public class SteveLoadingGames : MonoBehaviour
 {
     public GameObject beginSteve;
 
-    // Start is called before the first frame update
     void Start()
     {
         LoadSteve();
@@ -22,9 +21,7 @@ public class SteveLoadingGames : MonoBehaviour
     public void ExitInformation()
     {
         Time.timeScale = 1f;
-
         GameManager.Instance.InUIMode = false;
-
         beginSteve.SetActive(false);
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SteveLoadingWaste: MonoBehaviour
+public class SteveLoadingWaste : MonoBehaviour
 {
     public static int timesLoaded;
     public GameObject beginSteve;
@@ -11,31 +11,33 @@ public class SteveLoadingWaste: MonoBehaviour
     void Start()
     {
         LoadSteve();
-        timesLoaded ++;
+        timesLoaded++;
+    }
+    private void Update()
+    {
+        LoadSteve();
     }
 
     private void LoadSteve()
     {
-        Time.timeScale = 0f;
-        if (timesLoaded <= 1)
+        if (timesLoaded == 1)
         {
-            GameManager.Instance.InUIMode = true;
             beginSteve.SetActive(true);
+            GameManager.Instance.InUIMode = true;
         }
 
         if (timesLoaded == 2)
         {
             if (beginSteve2 != null)
             {
-                GameManager.Instance.InUIMode = true;
                 beginSteve2.SetActive(true);
+                GameManager.Instance.InUIMode = true;
             }
         }
     }
 
     public void ExitInformation()
     {
-        Time.timeScale = 1f;
         GameManager.Instance.InUIMode = false;
 
         if (beginSteve == isActiveAndEnabled)
