@@ -36,8 +36,8 @@ public class InteractableTasks : MonoBehaviour
 
         if (selected)
         {
+            renderers.material.color = Color.red; 
             FindObjectOfType<AudioManager>().Play("InteriorHover");
-            renderers.material.color = Color.red;
         }
     }
 
@@ -55,9 +55,9 @@ public class InteractableTasks : MonoBehaviour
         if (selected)
         {
             SceneManager.LoadScene(sceneName);
-            FindObjectOfType<AudioManager>().Play("InteriorClick");
             Time.timeScale = 1f;
             OrderMaker.task++;
+            FindObjectOfType<AudioManager>().Play("InteriorClick");
         }
     }
 }
