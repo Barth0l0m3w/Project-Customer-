@@ -11,7 +11,7 @@ public class SteveLoading : MonoBehaviour
     void Start()
     {
         LoadSteve();
-        timesLoaded ++;
+        timesLoaded = 1;
     }
 
     void Update()
