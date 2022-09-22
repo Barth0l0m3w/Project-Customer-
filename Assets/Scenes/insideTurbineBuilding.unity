@@ -1426,8 +1426,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1013448373}
-  - component: {fileID: 1013448372}
   - component: {fileID: 1013448371}
+  - component: {fileID: 1013448374}
   m_Layer: 0
   m_Name: scriptHolder
   m_TagString: Untagged
@@ -1448,18 +1448,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beginSteve: {fileID: 650791519}
---- !u!114 &1013448372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013448370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eb1b88a98f13874f965997043138fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1013448373
 Transform:
   m_ObjectHideFlags: 0

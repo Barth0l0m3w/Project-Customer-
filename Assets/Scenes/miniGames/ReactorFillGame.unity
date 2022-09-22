@@ -2307,7 +2307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee49c77c0fdbb840bc202b8d25d20c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 250
   zDirection: {fileID: 143447845}
   spawnpoint: {fileID: 330977369}
   Uranium: {fileID: 4763869003412758160, guid: 40842331e05fc084b835c0da057ae530, type: 3}
