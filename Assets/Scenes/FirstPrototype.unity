@@ -3254,6 +3254,18 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 910524134}
+    - target: {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
+      propertyPath: panLimit
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
+      propertyPath: panSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
+      propertyPath: panBorderSide
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 2823687678089352543, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
       propertyPath: m_Name
       value: Isometric camera
@@ -23592,7 +23604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.017769128, y: 0.026267072}
   m_AnchorMax: {x: 0.14481801, y: 0.06670291}
-  m_AnchoredPosition: {x: 66.816, y: 50.179}
+  m_AnchoredPosition: {x: 66.81616, y: 50.178955}
   m_SizeDelta: {x: 93.428, y: 35.758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870558284
@@ -30479,7 +30491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.017769128, y: 0.026267072}
   m_AnchorMax: {x: 0.14481801, y: 0.06670291}
-  m_AnchoredPosition: {x: 78.869, y: 60.224}
+  m_AnchoredPosition: {x: 78.86914, y: 60.224}
   m_SizeDelta: {x: 117.534, y: 55.847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143091907

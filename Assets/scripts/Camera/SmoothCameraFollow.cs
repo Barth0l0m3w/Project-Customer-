@@ -4,24 +4,43 @@ using UnityEngine;
 
 public class SmoothCameraFollow : MonoBehaviour
 {
-    private Vector3 _offset;
-    [SerializeField] private Transform target;
-    [SerializeField] private float smoothTime;
+    public float panSpeed = 40f;
+    public float panBorder = 100f;
+    public float panBorderSide = 300f;
 
-    private Vector3 _currentVelocity = Vector3.zero;
+    public float panLimit;
 
-    private void Awake()
+    private void Update()
     {
-        _offset = transform.position - target.position;
-    }
+        Vector3 movement = Vector3.zero;
 
-    private void LateUpdate()
-    {
-        if (target != null)
+        if (Input.mousePosition.y >= Screen.height - panBorder)
         {
-            Vector3 targetPosition = target.position + _offset;
-            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref _currentVelocity, smoothTime);
+            movement.z -= 1;
+            movement.x -= 1;
         }
+        if (Input.mousePosition.y <= panBorder)
+        {
+            movement.z += 1;
+            movement.x += 1;
+        }
+        if (Input.mousePosition.x >= Screen.width - panBorderSide)
+        {
+            movement.z += 1;
+            movement.x -= 1;
+        }
+        if (Input.mousePosition.x <= panBorderSide)
+        {
+            movement.z -= 1;
+            movement.x += 1;
+        }
+        movement = movement.normalized * panSpeed * Time.deltaTime;
+        transform.Translate(movement, Space.World);
 
+
+        Vector3 pos = transform.position;
+        pos.z = Mathf.Clamp(pos.z, -panLimit, panLimit);
+        pos.x = Mathf.Clamp(pos.x, -panLimit, panLimit);
+        transform.position = pos;
     }
 }
