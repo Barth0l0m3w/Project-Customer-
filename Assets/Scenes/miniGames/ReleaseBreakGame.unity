@@ -2982,6 +2982,19 @@ MonoBehaviour:
   GameObject: {fileID: 1115555532}
   check: {fileID: 937070808}
   isCorrectlyTurned: 0
+--- !u!65 &1985792599
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985792597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7417451, y: 0.75873935, z: 0.631692}
+  m_Center: {x: 0.12912732, y: -0.07462206, z: 0.18415278}
 --- !u!1 &2009387348
 GameObject:
   m_ObjectHideFlags: 0

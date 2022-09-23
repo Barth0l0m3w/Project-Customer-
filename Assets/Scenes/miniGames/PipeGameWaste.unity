@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeefb1e677225204c9b4fcb1b27d4d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 20
+  timer: 25
   FailedUI: {fileID: 1210834008}
   CompleteUI: {fileID: 725176328}
   failed: 0
