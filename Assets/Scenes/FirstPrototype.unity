@@ -3260,7 +3260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
       propertyPath: panSpeed
-      value: 50
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 2823687678089352537, guid: 6f9ad9e4618eae1489dea40bfcc81beb, type: 3}
       propertyPath: panBorderSide

@@ -2916,6 +2916,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 313415369}
     m_Modifications:
+    - target: {fileID: 2542120503450017933, guid: 24666a17c50bcdb44a87850375e4fcd6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3bd4873ba6ff184f96d31f5a340b31c, type: 2}
     - target: {fileID: 4833400851794096844, guid: 24666a17c50bcdb44a87850375e4fcd6, type: 3}
       propertyPath: m_Name
       value: pipeStraightEND
@@ -3880,6 +3884,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 313415369}
     m_Modifications:
+    - target: {fileID: 2542120503450017933, guid: 24666a17c50bcdb44a87850375e4fcd6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3bd4873ba6ff184f96d31f5a340b31c, type: 2}
     - target: {fileID: 4833400851794096844, guid: 24666a17c50bcdb44a87850375e4fcd6, type: 3}
       propertyPath: m_Name
       value: pipeStraigtSTART
