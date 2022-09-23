@@ -9,10 +9,14 @@ public class Backgroundmusik : MonoBehaviour
     [SerializeField]
     AudioClip backgroundmusic;
 
+    [Range(0f, 1f)]
+    public float volume;
+
     private void Awake()
     {
         audioSource.clip = backgroundmusic;
         audioSource.Play();
         DontDestroyOnLoad(gameObject);
+        audioSource.volume = volume;
     }
 }
