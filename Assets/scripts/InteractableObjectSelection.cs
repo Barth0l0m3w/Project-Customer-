@@ -69,6 +69,8 @@ public class InteractableObjectSelection : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (GameManager.Instance.InUIMode) return;
+
         if (selected)
         {
             SceneManager.LoadScene(sceneName);
